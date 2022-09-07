@@ -1,0 +1,44 @@
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+
+
+/* Custom properties */
+
+
+:root {
+  --light-clr: #ffffff;
+  --clr-dark: #0b1d26;
+  --dark-light-clr: #909090;
+  --accent-yellow-clr: #fdd037;
+  --accent-green-clr: #405e3d;
+  --font-family: "Poppins" sans-seri
+
+  --font-size-sm: 1.6rem;
+  --font-size-md: 3.2rem;
+  --font-size-lg: 3.6rem;
+  --font-size-xl: 4.8rem;
+
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --margin-bottom-sm: 1.6rem;
+  --margin-bottom-md: 2.4rem;
+  --margin-bottom-lg: 3.2rem;
+
+  --section-spacing: 4rem 0 2.5rem;
+   --container-spacing: 0.2.4rem
+
+  --gap-sm: 1.5rem;
+  --gap-md: 2rem;
+  --gap-lg: 4rem;
+}
+
+/* base Styles */
+
+/* Reusable */
+
+
+
+/* Nav JavaScript Styles */

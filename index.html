@@ -8,9 +8,133 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food10Kitchen | Home</title>
+    <!--link stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/03d5a1f99a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Hello word!</h1>
+    <header class="header" id="header">
+      <nav class="nav container" id="nav">
+        <div class="logo">
+          <a href="#" class="logo-text">
+            <h1><span>Food</span><span class="Change">10</span>kitchen</h1>
+          </a>
+        </div>
+        <i class="fa-solid fa-bars menu-toggle" id="menu-toggle-icon"></i>
+        <i class="fa-regular fa-x menu-toggle" id="menu-toggle-icon"></i>
+
+        <ul class="nav">
+          <li><a href="index.html" class="nav-link">HOME</a></li>
+          <li><a href="/about.html" class="nav-link">ABOUT</a></li>
+          <li><a href="/travel.html" class="nav-link">TRAVEL</a></li>
+          <li><a href="/style.html" class="nav-link">LIFESTYLE </a></li>
+          <li><a href="/contact.html" class="nav-link">CONTACT</a></li>
+          <!-- <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>-->
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-user"></i>
+              JOHN SMITH
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#" class="logout">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner" id="banner">
+        <div class="content">
+          <h1>Make Healthy Choices</h1>
+          <p>
+            Hello, reader! Welcome to DeliciousFoods blog. This is a place where
+            I share my passion with the world - healthy recipes..
+          </p>
+          <a href="#" class="btn">View here</a>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="/images/salut-min.jpg" alt="food" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/salut-min.jpg" alt="food" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/fitbreakfast.jpg" alt="food" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/salut-min.jpg" alt="food" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/salut-min.jpg" alt="food" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/salut-min.jpg" alt="food" />
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <!--Latest recipe blog posts-->
+      <div class="blog-posts"></div>
+
+      <section class="conten">
+        <div class="container">
+          <h2>Welcome to our website! Home to all our recipes.</h2>
+          <div class="tagline">
+            <h3>What's new</h3>
+            <div class="welcome">
+              <img src="/images/spicy.jpg" alt="food" />
+            </div>
+            <p>
+              Hello and welcome. We started Food10 in 2022! This text is lorem
+              ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non
+            </p>
+            <p>
+              lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non Hope you
+              will enjoy the new site! Big love!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
     <div></div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js" defer></script>
   </body>
 </html>

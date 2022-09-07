@@ -1,0 +1,309 @@
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap');
+
+
+
+/* Custom properties */
+
+
+:root {
+  --light-pink-clr: #f4e9e7;
+  --red-clr: #a52a2a;
+  --light-dark-clr: #dcdbdc;
+  --light-dark-clr: #655f5f;
+  --dark-clr: #6a666a;
+  --accent-color: #db7093;
+  --green-clr: #2e8b57;
+
+
+  --font-family: "Karla" sans-serif;
+  --secondary-font-family: "Merriweather" sans-serif;
+
+  --font-size-sm: 1.6rem;
+  --font-size-md: 3.2rem;
+  --font-size-lg: 3.6rem;
+  --font-size-xl: 4.8rem;
+
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --margin-bottom-sm: 1.6rem;
+  --margin-bottom-md: 2.4rem;
+  --margin-bottom-lg: 3.2rem;
+
+  --section-spacing: 4rem 0 2.5rem;
+   --container-spacing: 0.2.4rem
+
+  --gap-sm: 1.5rem;
+  --gap-md: 2rem;
+  --gap-lg: 4rem;
+}
+
+/* base Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  /* 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+ margin: 0px;
+padding: 0px;
+ font-family: var(--font-family);
+ background-color: #f6f6f6f6;
+}
+
+
+header{
+    background: var(--green-clr);
+    height: 66px; 
+    
+}
+
+header * {
+  color: #fff;
+  
+}
+
+header .logo{
+   float: left; 
+   margin-left: 2em;
+   height: inherit;
+    
+}
+
+header .logo-text{
+ font-family: var(--secondary-font-family);
+ font-weight: 800;
+   margin: 8px; 
+   text-decoration: none;
+    
+}
+header .logo-text .Change {
+   color: var(--accent-color);
+    
+}
+header ul{
+   float: right; 
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+
+header ul li{
+  float: left; 
+  position: relative;
+  
+   
+}
+header ul li ul{
+ position: absolute;
+ top: 55px;
+ right: 0px;
+ width: 180px;
+ display: none;
+ 
+}
+
+header ul li:hover ul{
+ display: block;
+}
+
+header ul li ul li{
+ width: 100%;
+}
+
+header ul li ul li a{
+ padding: 10px;
+ background: white;
+ color: #444;
+}
+
+
+header ul li ul li a.logout{
+color: #a52a2a;
+cursor: pointer;
+ 
+}
+
+header ul li a {
+display: block; 
+padding: 21px;
+font-size: 1.1em;
+text-decoration: none;
+   
+}
+
+header ul li a:hover {
+background: var(--accent-color);
+transition: 0.5s;   
+}
+header .menu-toggle{
+   display: none; 
+    
+    
+}
+
+
+
+/* Reusable */
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h1{
+ font-family: var(--secondary-font-family);
+    font-size: 5em;
+    color: brown;
+}
+.banner,
+.content p{
+    font-size: 1.5em;
+    color: var(--dark-clr);
+}
+
+.btn
+{
+    font-size: 1em;
+    color: black;
+    background: palevioletred;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+    
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: fit-content;
+  
+  
+}
+
+.swiper .swiper-button-prev,
+ .swiper .swiper-button-next {
+ color: #fff;
+
+}
+
+.swiper 
+.swiper-pagination-bullet-active{
+ background: var(--accent-color);
+}
+.conten{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.welcome {
+ display: flex;
+ flex-direction: row;
+ 
+}
+.welcome img{
+ width: 50%;
+ height: 50%;
+}
+/* Nav JavaScript Styles */
+
+/* MEDIA QUERIES */
+@media  only screen and (max-width:750px){
+ header{
+  position: relative;
+ }
+ header ul{
+ width: 100%; 
+ background: #cda0af; 
+ max-height: 0px;
+ overflow: hidden;
+
+    
+}
+header ul li{
+  width: 100%;
+}
+header ul li ul{
+ position: static;
+ display: block;
+ width: 100%;
+}
+
+header ul li ul li a{
+ padding: 10px;
+ background: #cda0af; 
+ color: #fff;
+ padding-left: 50px;
+}
+
+header ul li ul li a.logout{
+color: #a52a2a;
+cursor: pointer;
+ 
+}
+header .menu-toggle{
+   display: block; 
+    right: 20px;
+    top: 20px;
+    font-size: 2.3rem;
+    position: absolute;
+    
+}
+ header .logo{
+   margin-left: .8em;
+   height: inherit;
+    
+}
+
+header .logo-text{
+ margin-bottom: 10px;
+ 
+}
+}
