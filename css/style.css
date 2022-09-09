@@ -1,9 +1,6 @@
 /* import fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
 
 /* Custom properties */
 
@@ -29,8 +26,8 @@
   --transparent-dark-color: rgba(0, 0, 0, .75);
 
 
-  --font-family: "Karla" sans-serif;
-  --secondary-font-family: "Merriweather" sans-serif;
+  --font-family: "Poppins" sans-serif;
+  --secondary-font-family: "Roboto" sans-serif;
 
   --font-size-xsm: 1.3rem;
    --font-size-sm: 1.6rem;
@@ -626,27 +623,6 @@ background-color: var(--light-color);
 
 /* Contact styles */
 
-/*
-.container{
-    width: 100%;
-    height: 100vh;*/
-    /*background: #141a34;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.useful-links{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-
-}
-.useful-links a{
-    display: block;
-    color: #fff;
-    text-decoration: none;
-}*/
 
 .container form{
     width: 100%;
@@ -762,7 +738,8 @@ form button{
   background-color: #2e303b;
 }
 
-/* contact */
+/* contact ---- */
+
 .contact-information{
   padding-bottom: 5rem;
 }
@@ -993,6 +970,35 @@ form button{
   .older-post-grid-wrapper{
     grid-template-columns: repeat(2, ifr);
   }
+  .menu{
+  position: inherit;
+  width: inherit;
+  padding: inherit;
+  background-color: transparent;
+  opacity: inherit;
+  transform: inherit;
+}
+.menu > .list{
+  flex-direction: row;
+}
+.screen-lg-hidden{
+  display: none;
+}
+.screen-sm-hidden{
+  display: block;
+}
+.sign-up-btn{
+  padding: .4rem;
+}
+.btn .fancy-border:hover::before{
+   animation:  animate_border .75s linear
+   infinite;
+}
+@keyframes animate_border {
+  to{
+    transform: translateX(-50%);
+  }
+}
 }
 
 
@@ -1004,6 +1010,35 @@ form button{
     grid-column: 1/3;
     grid-row: 2/-1;
   }
+  .menu{
+  position: inherit;
+  width: inherit;
+  padding: inherit;
+  background-color: transparent;
+  opacity: inherit;
+  transform: inherit;
+}
+.menu > .list{
+  flex-direction: row;
+}
+.screen-lg-hidden{
+  display: none;
+}
+.screen-sm-hidden{
+  display: block;
+}
+.sign-up-btn{
+  padding: .4rem;
+}
+.btn .fancy-border:hover::before{
+   animation:  animate_border .75s linear
+   infinite;
+}
+@keyframes animate_border {
+  to{
+    transform: translateX(-50%);
+  }
+}
 }
 
 

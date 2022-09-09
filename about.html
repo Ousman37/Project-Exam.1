@@ -2,78 +2,433 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Healthy, easy and modern  recipes from our food10 kitchen. Easy  recipes, inspiring food photography, travel tips and cookbooks."
-    />
+    <meta name="description" content="Healthy, easy and modern recipes from our
+    food10 kitchen. Easy recipes, inspiring food photography, trave />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food10Kitchen | Home</title>
-    <!--link stylesheet -->
-    <link rel="stylesheet" href="./css/layout.css" />
+    <title>Food10Kitchen | About Us</title>
+
+    <!-- Swiper.js  styles -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <!-- font awesome link -->
-    <script
-      src="https://kit.fontawesome.com/03d5a1f99a.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- font REMIX  ICONS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--link stylesheet -->
+    <link rel="stylesheet" href="./css/layout.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header" id="header">
-      <nav class="nav container" id="nav">
-        <div class="logo">
-          <a href="./index.html" class="logo-text">
-            <i class="fa-solid fa-kitchen-set"></i>Food
-            <span>10</span>kitchen</a
-          >
-        </div>
-        <div class="nav-mobile" id="menu">
+      <nav class="navbar container">
+        <a href="/index.html">
+          <h2 class="logo">
+            <i class="fa-solid fa-kitchen-set"></i>Food <span>10</span>kitchen
+          </h2></a
+        >
+
+        <div class="menu" id="menu">
           <ul class="list">
             <li class="list-item">
-              <a href="/index.html" class="nav-link current">Home</a>
+              <a href="index.html" class="list-link current">Home</a>
             </li>
             <li class="list-item">
-              <a href="/about.html" class="nav-link">About</a>
+              <a href="./about.html" class="list-link">About</a>
             </li>
             <li class="list-item">
-              <a href="/travel.html" class="nav-link">Travel</a>
+              <a href="./post.html" class="list-link">Posts</a>
             </li>
             <li class="list-item">
-              <a href="/style.html" class="nav-link">LIFESTYLE</a>
+              <a href="#" class="list-link">Contact us</a>
             </li>
             <li class="list-item">
-              <a href="/contact.html" class="nav-link">Contact us</a>
+              <a href="#" class="list-link">LIFESTYLE</a>
             </li>
-
-            <!-- <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Login</a></li>-->
-            <li>
-              <a href="#">
-                <i class="fa-solid fa-user"></i>
-                JOHN SMITH
-                <i class="fa-solid fa-chevron-down"></i>
-              </a>
-              <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#" class="logout">Logout</a></li>
-              </ul>
+            <li class="list-item">
+              <a href="#" class="list-link">Reviews</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Categories</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign in </a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign up</a>
             </li>
           </ul>
         </div>
-        <div
-          class="menu-toggle-icon lg-screen-hidden place-items-center"
-          id="menu-toggle-icon"
-        >
-          <i class="fa-solid fa-bars"></i>
-          <i class="fa-regular fa-x"></i>
+
+        <div class="list list-right">
+          <button
+            class="btn light-theme place-items-center"
+            id="theme-toggle-btn"
+          >
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+
+          <button class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+
+          <button
+            class="btn place-items-center screen-lg-hidden menu-toggle-icon"
+            id="menu-toggle-icon"
+          >
+            <i class="ri-menu-2-line open-menu-icon"></i>
+            <i class="ri-close-fill close-menu-icon"></i>
+          </button>
+
+          <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+          <a
+            href="#"
+            class="list-link screen-sm-hidden btn sign-up-btn fancy-border"
+          >
+            <span>Sign in</span>
+          </a>
         </div>
       </nav>
     </header>
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="what are you looking for?"
+          />
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Or press ESC to close</span>
+      </div>
 
-    <footer class="footer"></footer>
-    <div></div>
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+    <!-- Blog post-->
+    <section class="grid info section-header-offset">
+      <div class="blog-post-container container">
+
+        <div class="about">
+          <h1 class="section-heading">About Us</h1>
+        </div>
+        <div class="about-info-image">
+          <img src="https://source.unsplash.com/NXiIVnzBwZ8" />
+        </div>
+
+        <div class="column-xs-12 column-md-7">
+          <div class="intro">
+            <h2>
+              Jane Writer is an award-winning author and lifestyle blogger.
+            </h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              quia iusto earum explicabo. Architecto, non dignissimos accusamus
+              eum excepturi ratione, earum tempore esse aliquam magni illo nihil
+              consequatur, perferendis soluta.Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Ullam quia iusto earum explicabo.
+              Architecto, non dignissimos accusamus eum excepturi ratione, earum
+              tempore esse aliquam magni illo nihil consequatur, perferendis
+              soluta. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Ullam quia iusto earum explicabo. Architecto, non dignissimos
+              accusamus eum excepturi ratione, earum tempore esse aliquam magni
+              illo nihil consequatur, perferendis soluta.Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Ullam quia iusto earum
+              explicabo. Architecto, non dignissimos accusamus eum excepturi
+              ratione, earum tempore esse aliquam magni illo nihil consequatur,
+              perferendis soluta.
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+              amet magni a ex odit ipsa harum deleniti, consequuntur repellendus
+              repudiandae, culpa ullam! Fugiat quas accusamus commodi harum
+              consequuntur excepturi illum?
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+              amet magni a ex odit ipsa harum deleniti, consequuntur repellendus
+              repudiandae, culpa ullam! Fugiat quas accusamus commodi harum
+              consequuntur excepturi illum?
+            </p>
+           </div>
+            </div>
+            <div class="column-xs-12 column-md-7">
+              <div class="intro">
+           <h2>
+             Jane Writer is an award-winning author and lifestyle blogger.
+           </h2>
+           <p>
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+             quia iusto earum explicabo. Architecto, non dignissimos accusamus
+             eum excepturi ratione, earum tempore esse aliquam magni illo nihil
+             consequatur, perferendis soluta.Lorem, ipsum dolor sit amet
+             consectetur adipisicing elit. Ullam quia iusto earum explicabo.
+             Architecto, non dignissimos accusamus eum excepturi ratione, earum
+             tempore esse aliquam magni illo nihil consequatur, perferendis
+             soluta. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Ullam quia iusto earum explicabo. Architecto, non dignissimos
+             accusamus eum excepturi ratione, earum tempore esse aliquam magni
+             illo nihil consequatur, perferendis soluta.Lorem, ipsum dolor sit
+             amet consectetur adipisicing elit. Ullam quia iusto earum
+             explicabo. Architecto, non dignissimos accusamus eum excepturi
+             ratione, earum tempore esse aliquam magni illo nihil consequatur,
+             perferendis soluta.
+           </p>
+           <p>
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+             amet magni a ex odit ipsa harum deleniti, consequuntur repellendus
+             repudiandae, culpa ullam! Fugiat quas accusamus commodi harum
+             consequuntur excepturi illum?
+           </p>
+           <p>
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
+             amet magni a ex odit ipsa harum deleniti, consequuntur repellendus
+             repudiandae, culpa ullam! Fugiat quas accusamus commodi harum
+             consequuntur excepturi illum?
+           </p>
+          </div>
+           </div>
+
+            
+            
+            
+           </div>
+              <div class="about-info-image">
+                <img src="https://source.unsplash.com/8eSrC43qdro">
+              </div>
+            </section>
+          </div>
+  
+        <div class="blog-post-data">
+          <h3 class="title blog-post-title">
+            The potential of future foods for sustainable and healthy diets
+          </h3>
+          <div class="article-data">
+            <span>Spt 12 2022</span>
+            <span class="article-data-spacer"></span>
+            <span>6 min read</span>
+          </div>
+          <img src="/images/older-posts_5.jpg" alt="food" class="" />
+        </div>
+        <div class="container">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia
+            iusto earum explicabo. Architecto, non dignissimos accusamus eum
+            excepturi ratione, earum tempore esse aliquam magni illo nihil
+            consequatur, perferendis soluta.Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Ullam quia iusto earum explicabo.
+            Architecto, non dignissimos accusamus eum excepturi ratione, earum
+            tempore esse aliquam magni illo nihil consequatur, perferendis
+            soluta.
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia
+            iusto earum explicabo. Architecto, non dignissimos accusamus eum
+            excepturi ratione, earum tempore esse aliquam magni illo nihil
+            consequatur, perferendis soluta.Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Ullam quia iusto earum explicabo.
+            Architecto, non dignissimos accusamus eum excepturi ratione, earum
+            tempore esse aliquam magni illo nihil consequatur, perferendis
+            soluta.
+          </p>
+
+          <blockquote class="quote">
+            <p>
+              <span><i class="ri-double-quotes-l"></i></span>Lorem, ipsum dolor
+              sit amet consectetur adipisicing elit. Ullam iusto earum
+              explicabo. Architecto, non dignissimos accusamus eum excepturi
+              ratione, earum tempore esse aliquam magni illo nihil consequatur,
+              perferendis soluta.Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Ullam quia iusto earum explicabo.<span
+                ><i class="ri-double-quotes-r"></i
+              ></span>
+            </p>
+          </blockquote>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia
+            iusto earum explicabo. Architecto, non dignissimos accusamus eum
+            excepturi ratione, earum tempore esse aliquam magni illo nihil
+            consequatur, perferendis soluta.Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Ullam quia iusto earum explicabo.
+            Architecto, non dignissimos accusamus eum excepturi ratione, earum
+            tempore esse aliquam magni illo nihil consequatur, perferendis
+            soluta.
+          </p>
+          <div class="author d-grid">
+            <div class="author-image-box">
+              <img src="/images/author-2.jpg" alt="" class="article-image" />
+            </div>
+            <div class="author-about">
+              <h3 class="author-name">John Doe</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                recusandae fugiat neque suscipit laboriosam impedit ipsum
+                similique possimus magnam iusto accusamus necessitatibus
+                voluptates, dolores aut expedita minima quaerat maiores
+                consequatur.
+              </p>
+              <ul class="list social-media">
+                <li class="list-item">
+                  <a href="#" class="list-link">
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a href="#" class="list-link">
+                    <i class="ri-youtube-line"></i>
+                  </a>
+                  <a href="#" class="list-link">
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                  <a href="#" class="list-link">
+                    <i class="ri-mail-send-line"></i>
+                  </a>
+                  <a href="#" class="list-link">
+                    <i class="ri-twitter-line"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer section">
+      <div class="footer-container container d-grid">
+        <div class="company-data">
+          <a href="/index.html">
+            <h2 class="logo">
+              <i class="fa-solid fa-kitchen-set"></i>Food <span>10</span>kitchen
+            </h2></a
+          >
+          <p class="company-description">
+            Welcome to our Food10Kitchen. Here we cook and eat healthy and
+            simple all kind of food vegetarian food with natural ingredients,
+            whole grains, good fats, fruit and vegetables.
+          </p>
+          <ul class="list social-media">
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-youtube-line"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-mail-send-line"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-twitter-line"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-pinterest-line"></i>
+              </a>
+            </li>
+          </ul>
+          <span class="copyright-notice"
+            >&copy: 2022 Food10Kitchen. All rights reserved. Design by Ethmane
+            Didi.</span
+          >
+        </div>
+        <div>
+          <h6 class="title footer-title">Blog information</h6>
+          <ul class="list footer-list">
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h6 class="title footer-title">Categories</h6>
+          <ul class="list footer-list">
+            <li class="list-item">
+              <a href="#" class="list-link">Food</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Health</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Nature</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Fitness</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link"></a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Mindfulness</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h6 class="title footer-title">Useful links</h6>
+          <ul class="list footer-list">
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper.js -->
+
+    <!-- Custom script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/app.js" defer></script>
   </body>
