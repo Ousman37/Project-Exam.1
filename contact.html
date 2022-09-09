@@ -5,7 +5,7 @@
     <meta name="description" content="Healthy, easy and modern recipes from our
     food10 kitchen. Easy recipes, inspiring food photography, trave />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food10Kitchen | Home</title>
+    <title>Food10Kitchen | Contact Us</title>
 
     <!-- Swiper.js  styles -->
     <link
@@ -20,7 +20,7 @@
     />
 
     <!--link stylesheet -->
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header -->
@@ -115,78 +115,105 @@
         <i class="ri-close-line"></i>
       </button>
     </div>
+    <!-- Contact form-->
+
     <!-- Blog post-->
-    <section class="blog-post section-header-offset">
-      <div class="blog-post-container container">
-        <div class="blog-post-data">
-          <h3 class="title blog-post-title">
-            The potential of future foods for sustainable and healthy diets
+    <section class="contact-information section-header-offset">
+      <div class="contact-info-container container">
+        <div class="contact-info-data">
+          <h3 class="title contact-info-title">
+            If you have any questions or just want to say hi, please send us an
+            e-mail to hello@food10kitchen.com or use the contact form below.
           </h3>
-          <div class="article-data">
-            <span>Spt 12 2022</span>
-            <span class="article-data-spacer"></span>
-            <span>6 min read</span>
+
+          <div class="container">
+            <form id="contactForm">
+              <i class="ri-send-plane-line"></i>
+
+              <div class="input-group">
+                <label for="" id="search_bar">First name</label>
+                <input
+                  type="text"
+                  aria-labelledby="name"
+                  id="firstName"
+                  class="search-input"
+                  placeholder="Your first  name"
+                />
+                <span class="error-hint hidden" id="firstNameError"
+                  >We need your first name – it’s nicer that way</span
+                >
+              </div>
+
+              <div class="input-group">
+                <label for="" id="name">Last name</label>
+                <input
+                  type="text"
+                  aria-labelledby="name"
+                  id="lastName"
+                  class="search-input"
+                  placeholder="Your  last name"
+                />
+                <span class="error-hint hidden" id="lastNameError">
+                  Last name, too, please!
+                </span>
+              </div>
+
+              <div class="input-group">
+                <label for="" id="name">Email</label>
+                <input
+                  type="text"
+                  aria-labelledby="email"
+                  id="email"
+                  class="search-input"
+                  placeholder="your email address "
+                />
+                <span class="error-hint hidden" id="emailError_contact_form">
+                  Oops! You need to type your email here
+                </span>
+              </div>
+
+              <div class="input-group">
+                <label for="" id="name">Subject:</label>
+                <input
+                  type="text"
+                  aria-labelledby="name"
+                  id="subject"
+                  class="search-input"
+                  placeholder="Your Subject here"
+                />
+                <span class="error-hint hidden" id="subjectError">
+                  Last name, too, please!
+                </span>
+              </div>
+
+              <div class="input-group">
+                <label for="" id="name">Message</label>
+                <textarea
+                  name="message"
+                  aria-labelledby="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="your message "
+                ></textarea>
+                <span class="error-hint hidden" id="messageError">
+                  your message is required.
+                </span>
+              </div>
+
+              <button type="submit">Submit</button>
+              <span class="hidden" id="submit-error">please fix error.</span>
+            </form>
           </div>
-          <img src="/images/older-posts_5.jpg" alt="food" class="" />
-        </div>
-        <div class="container">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia
-            iusto earum explicabo. Architecto, non dignissimos accusamus eum
-            excepturi ratione, earum tempore esse aliquam magni illo nihil
-            consequatur, perferendis soluta.Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Ullam quia iusto earum explicabo.
-            Architecto, non dignissimos accusamus eum excepturi ratione, earum
-            tempore esse aliquam magni illo nihil consequatur, perferendis
-            soluta.
-          </p>
 
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia
-            iusto earum explicabo. Architecto, non dignissimos accusamus eum
-            excepturi ratione, earum tempore esse aliquam magni illo nihil
-            consequatur, perferendis soluta.Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Ullam quia iusto earum explicabo.
-            Architecto, non dignissimos accusamus eum excepturi ratione, earum
-            tempore esse aliquam magni illo nihil consequatur, perferendis
-            soluta.
-          </p>
-
-          <blockquote class="quote">
-            <p>
-              <span><i class="ri-double-quotes-l"></i></span>Lorem, ipsum dolor
-              sit amet consectetur adipisicing elit. Ullam iusto earum
-              explicabo. Architecto, non dignissimos accusamus eum excepturi
-              ratione, earum tempore esse aliquam magni illo nihil consequatur,
-              perferendis soluta.Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Ullam quia iusto earum explicabo.<span
-                ><i class="ri-double-quotes-r"></i
-              ></span>
-            </p>
-          </blockquote>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia
-            iusto earum explicabo. Architecto, non dignissimos accusamus eum
-            excepturi ratione, earum tempore esse aliquam magni illo nihil
-            consequatur, perferendis soluta.Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Ullam quia iusto earum explicabo.
-            Architecto, non dignissimos accusamus eum excepturi ratione, earum
-            tempore esse aliquam magni illo nihil consequatur, perferendis
-            soluta.
-          </p>
           <div class="author d-grid">
             <div class="author-image-box">
               <img src="/images/author-2.jpg" alt="" class="article-image" />
             </div>
             <div class="author-about">
               <h3 class="author-name">John Doe</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                recusandae fugiat neque suscipit laboriosam impedit ipsum
-                similique possimus magnam iusto accusamus necessitatibus
-                voluptates, dolores aut expedita minima quaerat maiores
-                consequatur.
-              </p>
+              <p>Oh! And don't forget to follow us.</p>
+
               <ul class="list social-media">
                 <li class="list-item">
                   <a href="#" class="list-link">
@@ -340,5 +367,6 @@
     <!-- Custom script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/app.js" defer></script>
+    <script src="./js/script.js" defer></script>
   </body>
 </html>
