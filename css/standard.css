@@ -537,9 +537,10 @@ body.light-theme{
  color: var(--accent-color);
 }
 
- .moon-icon{
+.moon-icon{
  display: block;
 }
+
 
 .sun-icon{
   display: none;
@@ -553,6 +554,7 @@ body.light-theme{
 .light-theme .moon-icon{
 display: none;
 }
+
 
 /* Header javaScript styles*/
 .header.activated{
@@ -637,6 +639,7 @@ display: block;
 }
 
 /* form javaScript styles "something is not working with the form  come back work on to save time"!! */
+
 .search-form-container.activated{
  opacity: 1;
  transform:  scale(1);
