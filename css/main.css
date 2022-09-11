@@ -219,6 +219,17 @@ body.light-theme{
  cursor: pointer;
 }
 
+.cta{
+   background-color: var(--gradient-color);
+   color: var(--light-color);
+  line-height: 4px;
+  padding: 10px 10px;
+  border: 1px solid var(--accent-color);
+  cursor: pointer;
+}
+
+
+.cta:hover,
 .list-link:hover,
 .btn:hover,
 .btn:hover span{

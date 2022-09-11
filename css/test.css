@@ -739,14 +739,7 @@ margin: 20px rem 0px;
 
 
 @media screen and (min-width: 1280px){
-    #travel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 124px;
-    border-bottom: 1px solid rgba(0, 0, 0 ,0 .05);
-}
+    
 
 }
 @media screen and (min-width: 1500px){
