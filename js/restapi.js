@@ -31,12 +31,6 @@ $(document).ready(function () {
   </div>
 </a>
             
-           
-           
-           
-           
-           
-           
             
              `);
       });
