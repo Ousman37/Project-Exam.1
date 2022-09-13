@@ -177,10 +177,10 @@ body.light-theme{
 
 .menu{
   position: absolute;
-  top: 8.5rem;
+  top: 17.5rem;
   right: 1.5rem;
-  width: 23rem;
-  padding: 1.5rem;
+  width: 33rem;
+  padding: 5.5rem;
   background-color: var(--secondary-background-color);
   opacity: 0;
   transform: scale(0);
@@ -572,6 +572,23 @@ margin: 20px rem 0px;
 
 }
 
+.myBtn{
+ display: inline-block;
+ text-transform: capitalize;
+ font-size: 1.2rem;
+ padding: 0.3rem 1.5rem;
+ background: var(--accent-color);
+ border-radius: 0.2rem;
+ color: var(--light-color);
+ border: 2px solid var(--gradient-color);
+}
+.myBtn:hover{
+ background-color: var(--green-clr);
+ color: white;
+ transition: all .5s ease;
+}
+
+/*
 .travel-text a{
   color: var(--light-color);
 }
@@ -581,7 +598,7 @@ margin: 20px rem 0px;
   color: var(--accent-color);
   transition: all ease 0.3s;
 
-}
+}*/
 
 /* newsletter */
 .newsletter{

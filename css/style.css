@@ -180,17 +180,20 @@ body.light-theme{
  color: var(--accent-color);
 }
 
+
 .menu{
   position: absolute;
   top: 8.5rem;
-  right: 1.5rem;
-  width: 23rem;
-  padding: 1.5rem;
+  right: -0.5rem;
+  width: 33rem;
+  padding: 3.5rem;
   background-color: var(--secondary-background-color);
   opacity: 0;
   transform: scale(0);
   transition: opacity .25s ease-in ;
 }
+
+
 
 .list{
  display: flex;
@@ -632,6 +635,7 @@ background-color: var(--light-color);
     border-radius: 4px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     position: relative;
+    left: -1rem;
 }
 .ri-send-plane-line{
     position: absolute;
@@ -644,9 +648,10 @@ background-color: var(--light-color);
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-.input-group{
-    width: 100%;
+.input-group,
+.input-group textarea
+{
+    width: 129%;
     display: flex;
     align-items: center;
     margin: 10px 0;

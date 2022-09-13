@@ -887,6 +887,9 @@ background-color: var(--light-color);
     height: 40rem;
 
   }
+  .section-header-offset {
+    margin-top: 8.399999999999999rem;
+}
 }
 
 
@@ -894,10 +897,17 @@ background-color: var(--light-color);
   .older-post-grid-wrapper{
     grid-template-columns: repeat(2, ifr);
   }
+  .section-header-offset {
+    margin-top: 8.399999999999999rem;
+}
 }
 
 
 @media screen and (min-width: 1500px){
+
+  .section-header-offset {
+    margin-top: 8.399999999999999rem;
+}
   .featured-article{
     grid-column: 3/1;
   }
