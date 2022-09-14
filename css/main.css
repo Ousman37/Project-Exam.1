@@ -180,10 +180,12 @@ body.light-theme{
  font-size: var(--font-size-md);
   color: var(--light-color);
 }
-
+.logo-footer span,
 .logo span{
- color: var(--accent-color);
+  color: #8B2345;
+ 
 }
+
 
 .menu{
   position: absolute;
@@ -369,6 +371,7 @@ gap: 2rem;
 }
 
 .headline span{
+  font-size: var(--font-size-md);
   height: inherit;
 }
 
@@ -436,10 +439,12 @@ gap: 2rem;
 
 .article:hover .article-data-container{
   background-color: var(--hover-dark-color);
-  color: var(--hover-light-color);
+  color: #2E2E2E;
+  /*color: var(--hover-light-color);*/
 }
 
 .article:hover .article-data-spacer{
+
   background-color: var(--hover-light-color);
   
 }
@@ -463,10 +468,12 @@ gap: 2rem;
 }
 
 .title {
-  color: var(--light-color);
+  color: #2B2B2B;
+  /*color: var(--light-color);*/
 }
 
 .article-title{
+   color: #4A4A4A;
   font-size: var(--font-size-md);
 }
 
@@ -493,6 +500,7 @@ gap: 2rem;
   height: var(--item-min-height-md);
 }
 .featured-content-title{
+  color: #404040;
   font-size: var(--font-size-md);
   text-align: center;
   padding: 1rem;
@@ -519,6 +527,7 @@ gap: 2rem;
 }
 
 .section-title{
+  color: #404040;
   position: relative;
   font-size: var(--font-size-md);
   margin-bottom: 6rem;
@@ -630,6 +639,7 @@ background-color: var(--light-color);
 }
 
 .newsletter-title{
+  color: #454545;
   font-size: var(--font-size-lg);
 }
 
@@ -666,6 +676,7 @@ background-color: var(--light-color);
   align-items: flex-start;
 }
 .footer-title{
+  color: #D4D4D4;
   font-size: var(--font-size-md);
   text-transform: uppercase;
   margin-bottom: var(--margin-bottom-sm);

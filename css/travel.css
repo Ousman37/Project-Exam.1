@@ -588,17 +588,47 @@ margin: 20px rem 0px;
  transition: all .5s ease;
 }
 
-/*
-.travel-text a{
-  color: var(--light-color);
+
+.hero-hame{
+
+min-width: 114rem;
+ height: 40rem;
+ background: url(../images/dream7.jpg)
+ no-repeat center / cover;
+ margin: 5rem auto;
+  
+
 }
 
-.travel-text a:hover{
-  background: var(--gradient-color);
-  color: var(--accent-color);
-  transition: all ease 0.3s;
 
-}*/
+/* Leave Comment */
+
+.comment_container {
+  position: relative;
+
+}
+
+.comment_container::before {
+  content: '';
+  background-color: var(--secondary-background-color);
+  position: absolute; 
+  min-height: 100%;
+  width: 1px;
+  left: -10px;
+}
+
+.comment_container:not(:first-child){
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.comment-card{
+  padding: 20px;
+  background-color: var(--secondary-background-color);
+  border: 1px solid rgba(0, 0, 0 , .3);
+  border-radius: .5rem;
+  min-width: 100%;
+}
 
 /* newsletter */
 .newsletter{
