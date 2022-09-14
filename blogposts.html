@@ -401,7 +401,7 @@
           </div>
         </div>
       </div>
-      <button type="button">View More</button>
+      <button type="button" class="my_button">View More</button>
 
       <div class="travel-box">
         <div class="hero-hame"></div>
@@ -547,7 +547,7 @@
         </div>
       </div>
 
-      <div class="comment_container" id="first-comment">
+      <div class="comment_container opened" id="first-comment">
         <div class="comment-card">
           <h3 class="comment-title">The first comment</h3>
           <p>
@@ -557,10 +557,11 @@
           <div class="comment-card-footer">
             <div>Likes 150</div>
             <div>Dislikes 20</div>
-            <div class="show-replies">Reply 3</div>
+            <div class="show-replies">Reply 2</div>
           </div>
         </div>
-        <div class="comment_container" dataset="first-comment" id="first-reple">
+
+        <div class="comment_container" dataset="first-comment" id="first-reply">
 
           <div class="comment-card">
             <h3 class="comment-title">The frist reply </h3>
@@ -571,27 +572,41 @@
             <div class="comment-card-footer">
               <div>Likes 150</div>
               <div>Dislikes 20</div>
-              <div class="show-replies">Reply 3</div>
+              <div class="show-replies">Reply 1</div>
             </div>
           </div>
 
-          <div class="comment_container" dataset="first-comment">
+          <div class="comment_container" dataset="first-comment" id="first-first-reply">
            <div class="comment-card">
            <h3 class="comment-title">The first reply to the first reply</h3>
            <p>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
              deserunt porro earum rem quisquam quas dolorum nam laudantium,
            </p>
-           <div class="comment-card-footer">
+           <div class="comment-card-footer" dataset="first-reply">
              <div>Likes 150</div>
              <div>Dislikes 20</div>
-             <div class="show-replies">Reply 3</div>
+             <div class="show-replies">Reply 1</div>
            </div>
            </div>
+
+           <div class="comment_container" dataset="first-first-reply">
+          <div class="comment-card">
+          <h3 class="comment-title">The first reply to the first reply The first reply </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            deserunt porro earum rem quisquam quas dolorum nam laudantium,
+          </p>
+          <div class="comment-card-footer">
+            <div>Likes 150</div>
+            <div>Dislikes 20</div>
+            <div class="show-replies">Reply 0</div>
+          </div>
+          </div>
+         </div>
         </div>
-        
       </div>
-         <div class="comment_container" dataset="first-comment">
+    <div class="comment_container" dataset="first-comment">
      <div class="comment-card">
        <h3 class="comment-title">The second reply </h3>
        <p>
@@ -601,10 +616,11 @@
        <div class="comment-card-footer">
          <div>Likes 150</div>
          <div>Dislikes 20</div>
-         <div class="show-replies">Reply 3</div>
+         <div class="show-replies">Reply 0</div>
        </div>
      </div>
    </div>
+   
     </section>
 
     <!-- Newsletter -->
@@ -757,8 +773,10 @@
 
     <!-- Swiper.js -->
 
-    <!-- Custom script -->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/app.js" defer></script>
+    <!-- link script -->
+     <script src="./js/index.js" defer></script>
   </body>
 </html>

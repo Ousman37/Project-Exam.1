@@ -582,6 +582,27 @@ margin: 20px rem 0px;
  color: var(--light-color);
  border: 2px solid var(--gradient-color);
 }
+
+.my_button{
+display: inline-block;
+text-transform: capitalize;
+font-size: 1.7rem;
+padding: 1.3rem 2.9rem;
+background: var(--accent-color);
+border-radius: 0.2rem;
+font-weight: bold;
+text-transform: capitalize;
+transition: all .5s ease;
+cursor: pointer;
+color: #fff;
+}
+
+.my_button:hover{
+background-color: var(--green-clr);
+color: #fff;
+}
+
+
 .myBtn:hover{
  background-color: var(--green-clr);
  color: white;
@@ -604,10 +625,14 @@ min-width: 114rem;
 /* Leave Comment */
 
 .comment_container {
+  display: none;
   position: relative;
 
 }
 
+.comment_container.opened{
+  display: block;
+}
 .comment_container::before {
   content: '';
   background-color: var(--secondary-background-color);
