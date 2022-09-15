@@ -333,7 +333,7 @@
   --light-dark-clr: #ffffff;
   --light-dark-clr: #655f5f;
   --dark-clr: #6a666a;
-  --accent-color: #db7093;
+  --accent-color: #570822 ;
   --green-clr: #2e8b57;
   --light-color-alt: #afb6cd;
   --light-color: #fff;
@@ -494,6 +494,7 @@ body.light-theme{
 }
 
 .logo span{
+
  color: var(--accent-color);
 }
 
@@ -678,6 +679,7 @@ gap: 2rem;
 }
 
 .headline span{
+  font-size: var(--margin-bottom-md);
   height: inherit;
 }
 
@@ -744,7 +746,7 @@ gap: 2rem;
 }
 
 .article:hover .article-data-container{
-  background-color: var(--hover-dark-color);
+  background-color: #D9D9D9 ;
   color: var(--hover-light-color);
 }
 
@@ -771,8 +773,14 @@ gap: 2rem;
   transform: rotate(45deg);
 }
 
+
+.article-description{
+color: var(--light-color);
+}
+
 .title {
-  color: var(--light-color);
+
+  color: var(--light-color-alt);
 }
 
 .article-title{
@@ -866,6 +874,7 @@ gap: 2rem;
 }
 
 .newsletter-title{
+  color: #828282;
   font-size: var(--font-size-lg);
 }
 
@@ -902,6 +911,7 @@ gap: 2rem;
   align-items: flex-start;
 }
 .footer-title{
+  color: var(--light-color-alt);
   font-size: var(--font-size-md);
   text-transform: uppercase;
   margin-bottom: var(--margin-bottom-sm);

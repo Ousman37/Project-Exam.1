@@ -639,7 +639,8 @@ background-color: var(--light-color);
 }
 
 .newsletter-title{
-  color: #454545;
+  color: var(--light-color-alt);
+  /*color: #454545;*/
   font-size: var(--font-size-lg);
 }
 
@@ -676,7 +677,7 @@ background-color: var(--light-color);
   align-items: flex-start;
 }
 .footer-title{
-  color: #D4D4D4;
+  color: var(--light-color-alt);
   font-size: var(--font-size-md);
   text-transform: uppercase;
   margin-bottom: var(--margin-bottom-sm);

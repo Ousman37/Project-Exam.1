@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  alert("alert");
+  //alert("alert");
   $.ajax({
     method: "GET",
     url: `https://flowerpowersupply.com/wp-json/wp/v2/posts`,

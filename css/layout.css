@@ -513,6 +513,7 @@ gap: 2rem;
   align-items: flex-start;
 }
 .footer-title{
+  
   font-size: var(--font-size-md);
   text-transform: uppercase;
   margin-bottom: var(--margin-bottom-sm);
@@ -551,8 +552,10 @@ gap: 2rem;
 .blog-hero{
   min-width: 114rem;
   height: 40rem;
-  background: url(../images/blogfood1.jpeg) 
-  no-repeat center / cover;
+  background: rgb(172,38,105);
+background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78%);
+ /* background: url(../images/blogfood1.jpeg) 
+  no-repeat center / cover;*/
   margin: 5rem auto;
 }
 
