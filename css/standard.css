@@ -1,327 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
@@ -726,14 +403,11 @@ gap: 2rem;
 	border: 1px solid var(--red-clr);
 	
 	color: var(--light-color-alt);
-	vertical-align: middle;
+	
 	position: relative;
 	z-index: 1;
    appearance: none;
   background-color: transparent;
-	
-	
-  
  
 }
 .btn-accent:hover{
@@ -838,7 +512,6 @@ color: var(--light-color);
 
 .title span {
     font-weight: var(--fw-number);
-    /*color: var(--accent-color);*/
     display: inline-block;
     position: absolute;
     left: 0;
@@ -856,10 +529,8 @@ color: var(--light-color);
 .section-header-offset{
   margin-top: 7.4rem;
 }
-.card {
-  gap: 6.4rem;
-  margin-bottom: 12rem;
-}
+
+
 .card-info {
   position: relative;
 }
@@ -878,9 +549,9 @@ color: var(--light-color);
 
 
 .card-image {
-  width: 70%;
-  height: 48%;
-  border-radius: 67%;
+  width: 83%;
+  height: 55%;
+  
   align-items: center;
   margin-left: 10rem;
   object-fit: cover;
@@ -895,7 +566,8 @@ color: var(--light-color);
   font-size: var(--font-size-sm);
   color: var(--light-color);
   line-height: 2.8rem;
-  margin-bottom: var(--margin-bottom-md);
+  margin-bottom: 20rem;
+
 }
 
 
@@ -1021,7 +693,7 @@ color: var(--light-color);
 }
 }
 
-@media screen and (min-width: 390px){
+@media screen and (min-width: 360px){
      .travel-box{
       margin: 20px 10px;
       width: 100%;
@@ -1035,19 +707,66 @@ color: var(--light-color);
 .travel-container {
     margin: 20px -35px;
 }
-.card-description {
-  margin-bottom: 2rem;
-}
+
 .card-image {
-  width: 52%;
-  height: 44%;
+  width: 88%;
+  height: 95%;
   align-items: center;
-  margin-left: 6rem;
+  margin-left: 2rem;
   object-fit: cover;
 }
+.card-description {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+ .social-media{
+  align-items: center;
+  margin-left: 5rem;
+ }
+ .headline span{
+  font-size: var(--font-size-sm);
+ }
+ 
 }
 
 
+@media screen and (min-width: 375px){
+     .travel-box{
+      margin: 20px 10px;
+      width: 100%;
+     }
+     .travel{
+      padding: 20px;
+     }
+     .section-header-offset {
+    margin-top: 6.4rem;
+}
+.travel-container {
+    margin: 20px -35px;
+}
+
+.card-image {
+  width: 88%;
+  height: 95%;
+  align-items: center;
+  margin-left: 2rem;
+  object-fit: cover;
+}
+.card-description {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+ .social-media{
+  align-items: center;
+  margin-left: 5rem;
+ }
+ .headline span{
+  font-size: var(--font-size-sm);
+ }
+ 
+}
 
 @media screen and (min-width: 412px){
      .travel-box{
@@ -1063,17 +782,29 @@ color: var(--light-color);
 .travel-container {
     margin: 20px -35px;
 }
-.card-description {
-  margin-bottom: 2rem;
-}
+
 .card-image {
-  width: 71%;
-  height: 44%;
+  width: 88%;
+  height: 95%;
   align-items: center;
-  margin-left: 6rem;
+  margin-left: 2rem;
   object-fit: cover;
 }
+.card-description {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
 }
+
+ .social-media{
+  align-items: center;
+  margin-left: 5rem;
+ }
+ .headline span{
+  font-size: var(--font-size-sm);
+ }
+ 
+}
+
 
 @media screen and (min-width: 414px){
      .travel-box{
@@ -1093,10 +824,10 @@ color: var(--light-color);
   margin-bottom: 2rem;
 }
 .card-image {
-  width: 52%;
-  height: 44%;
+  width: 78%;
+  height: 55%;
   align-items: center;
-  margin-left: 6rem;
+  margin-left: 2rem;
   object-fit: cover;
 }
 }
@@ -1125,16 +856,10 @@ color: var(--light-color);
 }
 }
 
-@media screen and (min-width: 700px) {
 
-  .company-data{
-    order: 0;
-  }
 
-  .author{
-    grid-template-columns: 25rem 1ifr;
-  }
-}
+
+
 
 @media screen and (min-width: 768px){
   .featured-content{
@@ -1147,32 +872,6 @@ color: var(--light-color);
   }
 }
 
-@media screen and (min-width: 810px){
-     .travel-box{
-      margin: 20px 10px;
-      width: 100%;
-     }
-     .travel{
-      padding: 20px;
-     }
-     .section-header-offset {
-    margin-top: 6.4rem;
-}
-.travel-container {
-    margin: 20px -35px;
-}
-.card-description {
-  margin-bottom: 2rem;
-}
-
-.card-image {
-  width: 24%;
-  height: 52%;
-  align-items: center;
-  margin-left: 24rem;
-  object-fit: cover;
-}
-}
 
 @media screen and (min-width: 1024px){
   .menu{
@@ -1226,6 +925,82 @@ color: var(--light-color);
   }
 
 }
+
+@media screen and (min-width: 800px) {
+
+  .company-data{
+    order: 0;
+  }
+
+      .travel-box{
+      margin: 20px 10px;
+      width: 100%;
+     }
+     .travel{
+      padding: 20px;
+     }
+     .section-header-offset {
+    margin-top: 6.4rem;
+}
+.travel-container {
+    margin: 20px -35px;
+}
+.card-description {
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+}
+
+ .social-media{
+  align-items: center;
+  margin-left: 25rem;
+ }
+
+.card-image {
+  width: 82%;
+  height: 100%;
+  align-items: center;
+  margin-left: 6rem;
+  object-fit: cover;
+}
+ 
+}
+
+
+
+@media screen and (min-width: 810px) {
+
+  .company-data{
+    order: 0;
+  }
+
+      .travel-box{
+      margin: 20px 10px;
+      width: 100%;
+     }
+     .travel{
+      padding: 20px;
+     }
+     
+     .section-header-offset {
+    margin-top: 8.4rem;
+}
+.travel-container {
+    margin: 20px -35px;
+}
+.card-description {
+  margin-bottom: 2rem;
+}
+.card-image {
+  width: 90%;
+  height: 90%;
+  align-items: center;
+  margin-left: 2rem;
+  object-fit: cover;
+}
+ 
+ 
+}
+
 
 
 @media screen and (min-width: 1200px){

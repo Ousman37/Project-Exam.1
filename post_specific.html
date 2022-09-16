@@ -24,6 +24,77 @@
 
     <!--link stylesheet -->
     <link rel="stylesheet" href="./css/layout.css" />
+    <style>
+
+
+
+
+     .didi_modal_image{
+        display: none;
+      }
+      .didi_modal_image_show{
+        transition: all .5s ease;
+        display: block;
+        background:rgba(128, 128, 128, 0.474);
+        height:130vh;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        position:absolute;
+        top:0;
+        left:0;
+      }
+
+
+
+
+
+body {
+  background:  #eaecfa;
+}
+
+.loader {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  color:  #ce4233;
+  letter-spacing: 0.2em;
+}
+  .loader::before,.loader::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background:  #ce4233;
+    position: absolute;
+    animation: load .7s infinite alternate ease-in-out;
+  }
+  
+  .loader::before {
+    top: 0;
+  }
+  
+  .loader::after {
+    bottom: 0;
+  }
+
+
+@keyframes load {
+  0% { left: 0; height: 30px; width: 15px }
+  50% { height: 8px; width: 40px }
+  100% { left: 235px; height: 30px; width: 15px}
+}
+    </style>
     <!-- Hotjar Tracking Code for https://silver-choux-d1f3d2.netlify.app/ -->
     <script>
       (function (h, o, t, j, a, r) {
@@ -58,13 +129,13 @@
             <li class="list-item">
               <a href="./about.html" class="list-link">About</a>
             </li>
-            <li class="list-item">
-              <a href="./blogposts.html" class="list-link current"
-                >Blog Posts</a
-              >
-            </li>
+
             <li class="list-item">
               <a href="./post.html" class="list-link current">Posts</a>
+            </li>
+
+             <li class="list-item">
+            <a href="./travel.html" class="list-link current">Travel</a>
             </li>
             <li class="list-item">
               <a href="./contact.html" class="list-link">Contact us</a>
@@ -109,8 +180,13 @@
         </div>
       </nav>
     </header>
+    
     <!-- Search -->
     <div class="search-form-container container" id="search-form-container">
+
+
+
+
       <div class="form-container-inner">
         <form action="" class="form">
           <input
@@ -131,22 +207,23 @@
     </div>
     <!-- Blog post-->
     <section class="blog-post section-header-offset">
+       <div class="loader-container" 
+       style="background:#ffffff;width: 100%;
+       height:120vh;display:flex;justify-content:center;align-items:center;">
+      <div class="loader">Loading...</div>
+      </div>
       <div class="blog-hero"></div>
 
-      <!--<img src="/images/blogfood1.jpeg" alt="food" class="" />
-             <div class="article-data">
-             <span>Spt 12 2022</span>
-             <span class="article-data-spacer"></span>
-             <span>6 min read</span>
-               </div>-->
       <div class="blog-post-container container">
         <div class="container">
-          <div class="blog-post-data">
-            <!--<h2 class="title blog-post-title">beauty of nature</h2>-->
-          </div>
 
+         <!-- <div class="blog-post-data">
+            <h2 class="title blog-post-title">beauty of nature</h2>
+          </div>-->
+           
 
-          <div id="post-data-section"></div>
+          <div id="post-data-section-post-specific"></div>
+          
 
 
     
@@ -275,163 +352,9 @@
     <!-- Custom script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/app.js" defer></script>
-    <script>
-      var postDataArray = [
-        {
-          id: 1,
-          title: "Supper of medium rare steak with vegetables ",
-          imgUrl: "/images/blogfood6.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametcoipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-        },
-
-        {
-          id: 2,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood2.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-        },
-        {
-          id: 3,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood3.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-        },
-        {
-          id: 4,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood1.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.ipsum dolor sit ametco.Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco",
-        },
-        {
-          id: 5,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood4.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-        },
-        {
-          id: 6,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood4.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-        },
-        {
-          id: 7,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood5.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-        },
-        {
-          id: 8,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood10.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-        },
-        {
-          id: 9,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood11.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-        },
-        {
-          id: 10,
-          title: "enjoy the good food",
-          imgUrl: "/images/blogfood1.jpg",
-          desc_first:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          desc_second:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-          quote:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
-        },
-      ];
-     
+    <script src="./js/database.js" defer></script>
 
 
 
-
-
-
-
-
-
-
-     
-
-      const params = new URLSearchParams(window.location.search);
-      for (const param of params) {
-        console.log(param);
-      }
-
-      console.log("test", params.get("id"))
-      const id = +params.get("id");
-      if(id){
-       var currentPost = postDataArray.find(x =>x.id === id);
-
-
-       console.log(currentPost)
- var dataStr = "";
-      dataStr += `<figure>
-   <h1 style="text-align:center;text-transform:uppercase;box-shadow: 0 4px 3px -2px gray;margin-top:10px;">${postDataArray[0].title}</h1>
-    <img src="${currentPost.imgUrl}"  alt="food" class="" />
-  </figure>
-  <p>${currentPost.desc_first}
-   <blockquote class="quote">
- <p><span><i class="ri-double-quotes-l"></i></span>${currentPost.quote}<span ><i class="ri-double-quotes-r"></i></span></p> </blockquote>
-<p>${currentPost.desc_second}</p>
-
-   
-    </p>`;
-     document.getElementById("post-data-section").innerHTML = dataStr;
-
-      }
-      //
-      //
-      //
-    </script>
   </body>
 </html>
