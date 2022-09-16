@@ -851,7 +851,7 @@ color: var(--light-color);
 }
 .card-image {
   width: 78%;
-  height: 55%;
+  height: 90%;
   align-items: center;
   margin-left: 2rem;
   object-fit: cover;
@@ -877,7 +877,7 @@ color: var(--light-color);
 }
 .card-image {
   width: 78%;
-  height: 55%;
+  height: 90%;
   align-items: center;
   margin-left: 2rem;
   object-fit: cover;
