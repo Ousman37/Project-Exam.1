@@ -176,7 +176,7 @@ body.light-theme{
 }
 
 .logo span{
- color: var(--accent-color);
+ color: var(--dark-clr);
 }
 
 .menu{
@@ -464,14 +464,22 @@ gap: 2rem;
   color: var(--light-color);
 }
 
+/* my btn */
+ #didi_view_more_btn {
+   background-color: #a52a2a;
+   color: #ffffff;
+   font-size: 28px;
+   padding: 5px;
+   margin-top: 10px;
+ }
+
 
 /* loader */
-
-
  .didi_modal_image{
     display: none;
   }
-  .didi_modal_image_show{
+
+.didi_modal_image_show{
     transition: all .5s ease;
     display: block;
     background:rgba(128, 128, 128, 0.474);
@@ -486,12 +494,7 @@ gap: 2rem;
     left:0;
      }
    
-
-   
-   
-   
-   
-   .loader {
+.loader {
      width: 250px;
      height: 50px;
      line-height: 50px;
@@ -506,35 +509,32 @@ gap: 2rem;
      color:  #ce4233;
      letter-spacing: 0.2em;
    }
-     .loader::before,.loader::after {
-       content: "";
-       display: block;
-       width: 15px;
-       height: 15px;
-       background:  #ce4233;
-       position: absolute;
-       animation: load .7s infinite alternate ease-in-out;
-     }
+
+.loader::before,.loader::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background:  #ce4233;
+  position: absolute;
+  animation: load .7s infinite alternate ease-in-out;
+  }
      
-     .loader::before {
-       top: 0;
-     }
+.loader::before {
+    top: 0;
+  }
      
-     .loader::after {
-       bottom: 0;
-     }
+.loader::after {
+  bottom: 0;
+  }
    
    
-   @keyframes load {
-     0% { left: 0; height: 30px; width: 15px }
-     50% { height: 8px; width: 40px }
-     100% { left: 235px; height: 30px; width: 15px}
-   
+@keyframes load {
+  0% { left: 0; height: 30px; width: 15px }
+  50% { height: 8px; width: 40px }
+  100% { left: 235px; height: 30px; width: 15px}
+
 }
-
-
-
-
 
 
 /* newsletter */
@@ -619,9 +619,7 @@ gap: 2rem;
   min-width: 114rem;
   height: 40rem;
   background: rgb(172,38,105);
-background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78%);
- /* background: url(../images/blogfood1.jpeg) 
-  no-repeat center / cover;*/
+  background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78%);
   margin: 5rem auto;
 }
 
@@ -630,7 +628,7 @@ background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 5px;
- color: var(--light-color);
+  color: var(--light-color);
 }
 
 .profile-content{
@@ -684,11 +682,8 @@ background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  /*width: 100%;
-  
-  margin: 5rem 0;
-  padding: 5rem 0;*/
 }
+
 
 .articles .article-heading{
   text-transform: uppercase;
@@ -738,8 +733,8 @@ background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78
   background: url(../images/beauty.jpg) 
   no-repeat center center /cover;
   position: relative;
-  
 }
+
 
 .cards .card-container.two .img-holder{
  background: url(../images/10tips.jpg) 
@@ -747,17 +742,17 @@ background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78
  position: relative;
 }
 
+
 .cards .card-container.three .img-holder{
  background: url(../images/appl.jpg) 
  no-repeat center center /cover;
  position: relative;
 }
 
-  .cards .card-container .img-holder a{
+.cards .card-container .img-holder a{
   text-transform: capitalize;
   font-size: 1.2rem;
   padding: 0.3rem 1.5rem;
-  /*background-color: var(--secondary-background-color);*/
   display: inline-block;
   position: absolute;
   font-weight: 400;
@@ -781,7 +776,6 @@ background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78
   padding: 2rem;
   box-shadow: 0 0 0.3rem var(--light-color);
   
-
 }
 
  .card-tex h4{
@@ -793,7 +787,7 @@ background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78
 
  .card-tex p{
   max-width: 50rem;
-margin-bottom: 1rem;
+ margin-bottom: 1rem;
   font-size: 1.2rem;
   
 
@@ -825,7 +819,6 @@ margin-bottom: 1rem;
   flex-direction: column;
   gap: 2rem;
   margin: 0 auto;
-  /*background-color: var(--accent-color);*/
   border-radius: 1.5rem;
   margin-top: -15rem;
 }
@@ -876,8 +869,6 @@ margin-bottom: 1rem;
 
 
 /* Media queries*/
-
-
 @media screen and (min-width: 360px){
   .blog-hero {
   min-width: 25rem;
@@ -904,7 +895,6 @@ margin-bottom: 1rem;
   min-width: 25rem;
   height: 25rem;
 }
-
 .cards {
   display: block;
 }
@@ -1037,7 +1027,6 @@ margin-bottom: 1rem;
   }
   .blog-post-data img{
     height: 40rem;
-
   }
 }
 

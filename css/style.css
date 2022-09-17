@@ -26,6 +26,7 @@
   --transparent-dark-color: rgba(0, 0, 0, .75);
 
 
+
   --font-family: "Poppins" sans-serif;
   --secondary-font-family: "Roboto" sans-serif;
 
@@ -108,8 +109,8 @@ button{
 }
 i{
   font-size: var(--font-size-md);
- 
 }
+
 
 /* theme color change */
 body.light-theme{
@@ -121,6 +122,7 @@ body.light-theme{
    --transparent-dark-color: #f1f1f1;
    --transparent-light-color: rgba(0, 0, 0, .1);
 }
+
 
 /* Reusable  Classes*/
 .container{
@@ -173,17 +175,16 @@ body.light-theme{
  color: var(--accent-color);
 }
 
-
 .menu{
-  position: absolute;
-  top: 8.5rem;
-  right: -0.5rem;
-  width: 33rem;
-  padding: 3.5rem;
-  background-color: var(--secondary-background-color);
-  opacity: 0;
-  transform: scale(0);
-  transition: opacity .25s ease-in ;
+ position: absolute;
+ top: 8.5rem;
+ right: -0.5rem;
+ width: 33rem;
+ padding: 3.5rem;
+ background-color: var(--secondary-background-color);
+ opacity: 0;
+ transform: scale(0);
+ transition: opacity .25s ease-in ;
 }
 
 .list{
@@ -191,6 +192,7 @@ body.light-theme{
  align-items: center;
  gap: 1.5rem;
 }
+
 
 .menu > .list{
  flex-direction: column;
@@ -226,6 +228,7 @@ body.light-theme{
 display: block;
 }
 
+
 /* Header javaScript styles*/
 .header.activated{
  box-shadow: 0 1px .5rem var(--transparent-light-color);
@@ -245,7 +248,7 @@ display: none;
 display: block;
 }
 
-/* Search*/
+/* Search */
 .search-form-container{
  width: 100%;
  max-width: 100%;
@@ -274,6 +277,8 @@ display: block;
  justify-content: center;
 }
 
+
+
 .form-input,
 .form-btn{
  display: inline-block;
@@ -284,7 +289,6 @@ display: block;
 .form-input{
  border-right: none;
  width: 100%;
- /*background-color: var(--secondary-background-color);*/
 }
 
 .form-btn{
@@ -316,24 +320,25 @@ display: block;
 
 /* Featured articles*/
 .featured-article{
-  padding-block: 2rem;
+ padding-block: 2rem;
 }
 
 .section-header-offset{
-  margin-top: 7.4rem;
+ margin-top: 7.4rem;
 }
 
 .featured-articles-container,
 .featured-content{
-gap: 2rem;
+ gap: 2rem;
 }
 
+
 .headline-banner{
-  background-color: var(--secondary-background-color);
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  font-size: var(--font-size-xsm);
+ background-color: var(--secondary-background-color);
+ display: flex;
+ align-items: center;
+ gap: 2rem;
+ font-size: var(--font-size-xsm);
 }
 
 .headline{
@@ -374,11 +379,12 @@ gap: 2rem;
   background-color: var(--secondary-background-color);
 }
 
+
 .article{
   position: relative;
   min-height: var(--item-min-height-md);
-
 }
+
 
 .article-image{
   position: absolute;
@@ -410,6 +416,7 @@ gap: 2rem;
  width: 100%;
  transition: background-color .5s;
 }
+
 
 .article:hover .article-data-container{
   background-color: var(--hover-dark-color);
@@ -601,6 +608,7 @@ background-color: var(--light-color);
 .popular-tags-container .article:hover .article-image{
   transform: scale(1.05);
 }
+
 /* newsletter */
 .newsletter{
   padding-bottom: 6rem;
@@ -616,62 +624,62 @@ background-color: var(--light-color);
 
 /* Contact styles */
 .container form{
-    width: 100%;
-    max-width: 500px;
-    padding: 50px 30px 20px;
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-    position: relative;
-    left: -1rem;
+  width: 100%;
+  max-width: 500px;
+  padding: 50px 30px 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+  left: -1rem;
 }
 .ri-send-plane-line{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #fff;
-    font-size: 26px;
-    padding: 20px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  font-size: 26px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .input-group,
 .input-group textarea
 {
-    width: 129%;
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-    position: relative;
+  width: 129%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
 }
 .input-group label{
     flex-basis: 28%;
 }
 .input-group input, .input-group textarea{
-    flex-basis: 68%;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    padding: 10px 0;
-    border-bottom: 1px solid #999;
-    color: #333;
-    font-size: 16px;
+  flex-basis: 68%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+  color: #333;
+  font-size: 16px;
 }
 ::placeholder{
     font-size: 14px;
 }
 
 form button{
-    background: #0D2B1D;
-    color: #fff;
-    border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    padding: 10px 40px;
-    outline: 0;
-    cursor: pointer;
-    display: block;
-    margin: 30px auto 10px;
+  background: #0D2B1D;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 10px 40px;
+  outline: 0;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 10px;
 }
 
 
@@ -683,11 +691,15 @@ form button{
 .footer-container{
  gap: 2rem;
 }
+
 .company-data{
   display: flex;
   flex-direction: column;
-  /*order: 1;*/
+  order: 1;
 }
+
+
+
 .company-description{
   margin-block: 1.2rem;
   max-width: 75%;
@@ -699,15 +711,18 @@ form button{
 .copyright-notice{
   opacity: .8;
 }
+
 .footer-list{
   flex-direction: column;
   align-items: flex-start;
 }
+
 .footer-title{
   font-size: var(--font-size-md);
   text-transform: uppercase;
   margin-bottom: var(--margin-bottom-sm);
 }
+
 
 /* Scrollbar styles */
 ::-webkit-scrollbar{
@@ -726,11 +741,12 @@ form button{
   background-color: #2e303b;
 }
 
-/* contact ---- */
 
+/* --- contact ---- */
 .contact-information{
   padding-bottom: 5rem;
 }
+
 
 .contact-info-data{
   display: flex;
@@ -740,14 +756,17 @@ form button{
   padding-block: 2.5rem;
 }
 
+
 .contact-info-title{
   font-size: clamp(3rem,5vw, 6rem);
   margin-bottom: 5rem;
 }
 
+
 .blog-post-data .article-data{
   margin-bottom: 2.5rem;
 }
+
 
 .blog-post-data img{
   width: 100%;
@@ -755,6 +774,7 @@ form button{
   object-fit: cover;
   object-position: center 10%;
 }
+
 .contact-info-container .container{
   max-width: 90rem;
   padding: 0;
@@ -762,6 +782,7 @@ form button{
   flex-direction: column;
   gap: 2rem;
 }
+
 
 .input-group span {
   position: absolute;
@@ -818,8 +839,6 @@ form button{
 
 
 /* Media queries*/
-
-
 @media screen and (min-width: 360px){
   .input-group, .input-group textarea {
   width: 100%;
@@ -828,6 +847,7 @@ form button{
   margin: 10px 0;
   position: relative;
 }
+
 .contact-info-title {
   font-size: var(--font-size-sm);
   margin-bottom: 5rem;

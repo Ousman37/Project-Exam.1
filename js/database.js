@@ -279,26 +279,25 @@ if (id) {
   var dataStr = "";
   dataStr += `
            <div>
-             <figure>
-        <h1 style="text-align:center;text-transform:uppercase;box-shadow: 0 4px 3px -2px gray;margin-top:10px;">${postDataArray[0].title}</h1>
-        <a onclick="modelImgClick()"> <img src="${currentPost.imgUrl}" height="400px" width="360px"  alt="food" class="" /></a>
-       </figure>
-       <p>${currentPost.desc_first}
-        <blockquote class="quote">
-      <p><span><i class="ri-double-quotes-l"></i></span>${currentPost.quote}<span ><i class="ri-double-quotes-r"></i></span></p> </blockquote>
-      ${currentPost.desc_second}</p>
-      <p>${currentPost.desc_first}</p>
-      
-    </p>
+                <figure>
+               <h1 style="text-align:center;text-transform:uppercase;box-shadow: 0 4px 3px -2px gray;margin-top: 80px;">${postDataArray[0].title}</h1>
+               <a onclick="modelImgClick()"> <img src="${currentPost.imgUrl}" height="400px" width="360px"  alt="food" class="" /></a>
+               </figure>
+               <p>${currentPost.desc_first}
+                <blockquote class="quote">
+              <p><span><i class="ri-double-quotes-l"></i></span>${currentPost.quote}<span ><i class="ri-double-quotes-r"></i></span></p> </blockquote>
+              ${currentPost.desc_second}</p>
+              <p>${currentPost.desc_first}</p>
+            </p>
 
-    <div id="didi_modal_image_id" class="didi_modal_image">
-      <div style="width:760px;">
-      <button style="font-size:28px;padding:5px;background:tomato;color:#ffffff;float:right;transform:translateY(50px)" onclick="modalClose()">X</button>
+       <div id="didi_modal_image_id" class="didi_modal_image"> 
+       <div style="width:760px;">
+      <button style="font-size:28px;padding:5px;background:tomato;color:#ffffff; display: flex; margin-left: 76rem;    transform:translateY(50px)" onclick="modalClose()">X</button>
       </div>
        <img src="${currentPost.imgUrl}" height="700px" width="760px" />
       </div>
-   
-    </div>`;
+      </div>`;
+
   document.getElementById("post-data-section-post-specific").innerHTML =
     dataStr;
   setTimeout(() => {
