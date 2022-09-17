@@ -100,8 +100,8 @@ var postDataArray = [
   },
   {
     id: 10,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood10.jpg",
+    title: "Japanese noodle salad",
+    imgUrl: "/images/blogfood11.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
