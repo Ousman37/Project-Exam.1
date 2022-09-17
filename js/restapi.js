@@ -25,14 +25,15 @@ $(document).ready(function () {
     </h3>
     <p class="article-description"> ${post.content.rendered}  
     </p>
+    </div>
+    <a href="./contact.html">
     <button type="button" class="cta place-items-center">
-      Get the Recipe
+    Ask for the Recipe
     </button>
-  </div>
-</a>
-            
-            
-             `);
+  </a>
+  </a>
+       
+      `);
       });
     },
   });

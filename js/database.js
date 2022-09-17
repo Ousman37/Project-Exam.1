@@ -1,7 +1,7 @@
 var postDataArray = [
   {
     id: 1,
-    title: "enjoy the good food",
+    title: "Roasted beef with carrots and red wine sauce",
     imgUrl: "/images/blogfood6.jpg",
     desc_first:
       "Food is a very important part of everyone's life. If you want to be healthy, you have to eat healthy. One of the easiest ways to do that is to keep your cooking nice and simple.",
@@ -12,7 +12,7 @@ var postDataArray = [
   },
   {
     id: 2,
-    title: "enjoy the good food",
+    title: "Enjoy the cupcake with coffee",
     imgUrl: "/images/blogfood2.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -23,7 +23,7 @@ var postDataArray = [
   },
   {
     id: 3,
-    title: "enjoy the good food",
+    title: "Salmon with curry sauce with lemon",
     imgUrl: "/images/blogfood3.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -34,7 +34,7 @@ var postDataArray = [
   },
   {
     id: 4,
-    title: "enjoy the good food",
+    title: "Enjoy the simple pasta salad with tuna fish.",
     imgUrl: "/images/blogfood4.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -45,7 +45,7 @@ var postDataArray = [
   },
   {
     id: 5,
-    title: "enjoy the good food",
+    title: "delicious noodle wok ",
     imgUrl: "/images/blogfood5.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -56,7 +56,7 @@ var postDataArray = [
   },
   {
     id: 6,
-    title: "enjoy the good food",
+    title: "Chicken with asparagus with red wine sauce",
     imgUrl: "/images/blogfood7.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -67,7 +67,7 @@ var postDataArray = [
   },
   {
     id: 7,
-    title: "enjoy the good food",
+    title: "Simple Biff salad ",
     imgUrl: "/images/blogfood8.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -78,7 +78,7 @@ var postDataArray = [
   },
   {
     id: 8,
-    title: "enjoy the good food",
+    title: "Smoked salmon ",
     imgUrl: "/images/blogfood9.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -89,7 +89,7 @@ var postDataArray = [
   },
   {
     id: 9,
-    title: "enjoy the good food",
+    title: "Tomato Soup",
     imgUrl: "/images/blogfood10.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -111,8 +111,8 @@ var postDataArray = [
   },
   {
     id: 11,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood2.jpg",
+    title: "Lemon Tarte",
+    imgUrl: "/images/jordane-mat1.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -122,8 +122,8 @@ var postDataArray = [
   },
   {
     id: 12,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood1.jpg",
+    title: "Easy pan seared salmon with roasted Vegetables",
+    imgUrl: "/images/jordane-mat2.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -133,8 +133,8 @@ var postDataArray = [
   },
   {
     id: 13,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood9.jpg",
+    title: "Asparagus Salad with parmesan slice",
+    imgUrl: "/images/jordane-mat3.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -144,8 +144,8 @@ var postDataArray = [
   },
   {
     id: 14,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood1.jpg",
+    title: "Pasta Bolognese",
+    imgUrl: "/images/jordane-mat4.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -155,8 +155,8 @@ var postDataArray = [
   },
   {
     id: 15,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood8.jpg",
+    title: "Chicken with Vegetables",
+    imgUrl: "/images/jordane-mat5.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -166,8 +166,8 @@ var postDataArray = [
   },
   {
     id: 16,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood6.jpg",
+    title: "Egg pie",
+    imgUrl: "/images/jordane-mat6.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -177,8 +177,8 @@ var postDataArray = [
   },
   {
     id: 17,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood5.jpg",
+    title: "Raspberry Tart",
+    imgUrl: "/images/jordane-mat7.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -188,8 +188,8 @@ var postDataArray = [
   },
   {
     id: 18,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood11.jpg",
+    title: "Risotto Bowl",
+    imgUrl: "/images/jordane-mat8.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -199,8 +199,8 @@ var postDataArray = [
   },
   {
     id: 19,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood3.jpg",
+    title: "Lemon Chicken",
+    imgUrl: "/images/jordane-mat9.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:
@@ -210,8 +210,9 @@ var postDataArray = [
   },
   {
     id: 20,
-    title: "Noodles chicken salad",
-    imgUrl: "/images/blogfood4.jpg",
+    title:
+      "Atlantic salmon, confit mushroom, ash roasted potato, roasted tomato, brodo",
+    imgUrl: "/images/jordane-mat10.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
     desc_second:

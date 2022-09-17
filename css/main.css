@@ -433,8 +433,8 @@ gap: 2rem;
 
 .article:hover .article-data-container{
   background-color: var(--hover-dark-color);
-  color: var(--light-color);
-  /*color: var(--hover-light-color);*/
+ 
+  color: var(--hover-light-color);
 }
 
 .article:hover .article-data-spacer{
@@ -618,12 +618,13 @@ background-color: var(--light-color);
 }
 .tag-name{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  left: 36%;
   transform:  translate(-50%, -50%);
-  background-color: var(--transparent-dark-color);
+  background-color: var(--gradient-color);
   padding: 1rem 2rem;
   z-index: 10;
+  font-size: var(--font-size-md);
 }
 .popular-tags-container .article:hover .tag-name{
   color: var(--light-color);
