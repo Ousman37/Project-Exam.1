@@ -172,7 +172,7 @@ body.light-theme{
 }
 
 .logo span{
- color: #7E2040;
+ color: var(--dark-clr);
 }
 
 .menu{

@@ -236,7 +236,7 @@ body.light-theme{
 }
 
 .light-theme .sun-icon{
- display: none;
+ display: block;
 }
 
 .light-theme .moon-icon{

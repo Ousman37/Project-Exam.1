@@ -172,7 +172,7 @@ body.light-theme{
 }
 
 .logo span{
- color: var(--accent-color);
+ color: var(--dark-clr);
 }
 
 .menu{
