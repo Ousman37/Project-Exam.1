@@ -17,7 +17,7 @@
   --light-footer-color: #DCDBDC;
 
   --secondary-background-color: #252830;
-  --primary-background-color: #131417;
+  --primary-background-color: #22203A;
  --hover-light-color: var(--light-color: #fff;);
   --hover-dark-color: var(--primary-background-color);
   --gradient-color:linear-gradient(115deg, #4fcf70,  #fad648, #a767e5, #12bcfe,  #44ce7b );
@@ -54,8 +54,6 @@
   
   
 }
-
-
 
 
 /* base Styles */
@@ -172,7 +170,7 @@ body.light-theme{
 }
 
 .logo span{
- color: var(--dark-clr);
+ color: #BCB8BC;
 }
 
 .menu{
@@ -498,7 +496,7 @@ color: var(--light-color-alt);
   padding: 1em 0 2em;
   margin: 0;
   color: #fff;
-  background: var(--accent-color);
+  background: var(--red-clr);
   position: relative;
   /*z-index: 1000;*/
 }
