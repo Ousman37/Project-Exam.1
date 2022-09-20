@@ -858,7 +858,7 @@ form button{
   width: 100%;
   display: flex;
   align-items: center;
-  margin: 10px 0;
+  margin: 35px 0;
   position: relative;
 }
 
@@ -866,9 +866,17 @@ form button{
   font-size: var(--font-size-sm);
   margin-bottom: 5rem;
 }
-.container form {
-  left: 0rem;
+.headline-banner {
+    background-color: var(--secondary-background-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: var(--font-size-xsm);
+    height: 4rem;
+    margin-right: -1rem;
 }
+
+
 .article-image {
     position: absolute;
     width: 100%;
@@ -877,10 +885,11 @@ form button{
     transition: transform .25s;
 }
 .author {
-  width: 100%;
+  width: 90%;
     margin-top: 5rem;
     gap: 2rem;
     background-color: var(--secondary-background-color);
+    
 }
 .contact-info-container .container {
     width: 27rem;
@@ -906,7 +915,28 @@ form button{
   margin-bottom: 5rem;
 }
 .container form {
-  left: 0rem;
+  width: 117%;
+  left: -3rem;
+}
+
+
+}
+
+@media screen and (min-width: 384px){
+  .input-group, .input-group textarea {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
+}
+.contact-info-title {
+  font-size: var(--font-size-sm);
+  margin-bottom: 5rem;
+}
+.container form {
+  width: 122%;
+  left: -3rem;
 }
 
 }
@@ -924,7 +954,52 @@ form button{
   font-size: var(--font-size-sm);
   margin-bottom: 5rem;
 }
+.container form {
+  width: 138%;
+  left: -5rem;
+}
 
+}
+
+@media screen and (min-width: 414px){
+  .input-group, .input-group textarea {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  position: relative;
+}
+.contact-info-title {
+  font-size: var(--font-size-sm);
+  margin-bottom: 5rem;
+}
+.container form {
+  width: 119%;
+  left: -3rem;
+}
+
+}
+
+
+@media screen and (min-width: 810px){
+  .input-group, .input-group textarea {
+  width: 100%;
+}
+.contact-info-title {
+  font-size: var(--font-size-sm);
+  margin-bottom: 5rem;
+}
+.container form {
+  width: 138%;
+  left: -5rem;
+}
+.contact-info-container .container {
+  width: 41rem;
+}
+.author {
+  width: 43%;
+  margin-top: 5rem;
+}
 }
 
 
@@ -975,6 +1050,22 @@ form button{
     margin-top: auto;
   }
 
+  .container form {
+  width: 100%;
+  left: 1rem;
+}
+.contact-info-container .container {
+  width: 41rem;
+}
+.author {
+  width: 27%;
+  margin-top: 5rem;
+  margin-left: -3rem;
+}
+.contact-info-container .container {
+  width: 53rem;
+}
+
 }
 
 
@@ -990,6 +1081,22 @@ form button{
   left: -1rem;
 }
 
+
+  .container form {
+  width: 100%;
+  left: 2rem;
+}
+.contact-info-container .container {
+  width: 41rem;
+}
+.author {
+  width: 27%;
+  margin-top: 5rem;
+  
+}
+.contact-info-container .container {
+  width: 53rem;
+}
 }
 
 
