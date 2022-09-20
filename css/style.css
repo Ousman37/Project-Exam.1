@@ -849,6 +849,11 @@ form button{
 
 /* Media queries*/
 @media screen and (min-width: 280px){
+
+  .logo {
+    font-size: var(--font-size-sm);
+    
+}
   .input-group, .input-group textarea {
   width: 100%;
   display: flex;
@@ -878,11 +883,12 @@ form button{
     background-color: var(--secondary-background-color);
 }
 .contact-info-container .container {
-    max-width: 25rem;
+    width: 27rem;
     padding: 0;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-left: -1rem;
 }
 
 }
