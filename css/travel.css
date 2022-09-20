@@ -577,17 +577,24 @@ margin: 20px rem 0px;
 }
 
 .myBtn{
- display: inline-block;
- text-transform: capitalize;
- font-size: 1.2rem;
- padding: 0.3rem 1.5rem;
- background: var(--accent-color);
- border-radius: 0.2rem;
- color: #361717;
- border: 2px solid var(--gradient-color);
+  align-items: center;
+ 
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	padding: 1em 2em;
+	border: 1px solid rgba(208, 13, 146, 0.729);
+	color: var(--light-color-alt);
+	position: relative;
+	z-index: 1;
+  appearance: none;
+ background-color: transparent;
+ 
 }
 
 .my_button{
+  
 display: inline-block;
 text-transform: capitalize;
 font-size: 1.7rem;
