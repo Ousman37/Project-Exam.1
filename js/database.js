@@ -45,7 +45,7 @@ var postDataArray = [
   },
   {
     id: 5,
-    title: "delicious noodle wok ",
+    title: "Delicious noodle wok ",
     imgUrl: "/images/blogfood5.jpg",
     desc_first:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. perferendis soluta.Lorem, ipsum dolor sit ametco.",
@@ -239,7 +239,7 @@ function addData() {
 <img src="${element.imgUrl}"  alt="food" display: grid; height="210" width="300"   transform: scale(1.05);  />
 </figure>
 <p>${element.desc_first}
-<a style="display:block;padding:3px 5px 1px 10px; cursor: pointer; background: #a52a2a;width:80px;color:#ffffff;" href="./post_specific.html?id=${element.id}">Read </a>
+<a style="display:block;padding:3px 5px 1px 10px; margin-top: 3rem; margin-bottom: 5rem; cursor: pointer; background: #a52a2a;width:80px;color:#ffffff;" href="./post_specific.html?id=${element.id}">Read </a>
 </p>`;
     }
     if (index >= showItemCount) {
