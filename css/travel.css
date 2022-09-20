@@ -1,5 +1,4 @@
 
-
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
@@ -52,11 +51,8 @@
   --gap: 2rem;
   --item-min-height-sm: 20rem;
   --item-min-height-md: 30rem;
-  
-  
+
 }
-
-
 
 
 /* base Styles */
@@ -456,23 +452,6 @@ height: 60vh;
 
 
 
-.title {
-  color: #CCCCCC;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 1em 0 2em;
-  margin: 0;
-  background-color: #771D38;
-  position: relative;
-  z-index: 1000;
-}
-
-.title {
- font-size: 1rem;
-  text-shadow: 3px 5px 10px rgba(0,0,0, .2);
-  clip-path: polygon(0 0, 100% 0%, 100% 60%, 0% 100%);
-}
-
 .title span {
     font-weight: var(--fw-number);
     color: #fff;
@@ -500,10 +479,6 @@ height: 60vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.travel-heading span{
-  color: #822142;
 }
 
 .travel-heading h3{
@@ -538,6 +513,7 @@ height: 60vh;
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 1rem;
 }
 
 .travel-text{
@@ -592,7 +568,6 @@ background-color: transparent;
 }
 
 .my_button{
-  
 display: inline-block;
 text-transform: capitalize;
 font-size: 1.7rem;
@@ -713,8 +688,7 @@ color: #fff;
   align-items: flex-start;
 }
 .footer-title{
-  color: #E8E8E8;
-  background-color: #771D38;
+  color: var(--light-color-alt);
   font-size: var(--font-size-md);
   text-transform: uppercase;
   margin-bottom: var(--margin-bottom-sm);

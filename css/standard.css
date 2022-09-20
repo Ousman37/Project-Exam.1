@@ -536,6 +536,7 @@ color: var(--light-color-alt);
 
 .card-image.frame-position-center {
   object-position: 50% 100%;
+  border-radius: 5rem;
   
 }
 

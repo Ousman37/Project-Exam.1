@@ -78,9 +78,7 @@ background-color: var(--primary-background-color);
 color: var(--light-color-alt);
 letter-spacing: 1px;
 transition: background-color .25s, color .25s;
-
 }
-
 
 a{
   text-decoration: none;
@@ -90,6 +88,7 @@ a{
 img{
   max-width: 100%;
   display: block;
+ 
  
 }
 
@@ -122,7 +121,6 @@ body.light-theme{
    --transparent-dark-color: #f1f1f1;
    --transparent-light-color: rgba(0, 0, 0, .1);
 }
-
 
 /* Reusable  Classes*/
 .container{
@@ -550,73 +548,6 @@ display: block;
 background-color: var(--light-color);
 }
 
-/* older posts*/
-.older-post-grid-wrapper {
-  gap: 2rem;
-}
-
-.older-posts-article-image-wrapper,
-.older-poste.article{
-  min-height: var(--item-min-height-sm);
-
-}
-.older-poste.article{
-  background-color: var(--secondary-background-color);
-}
-
-.older-posts-article-image-wrapper{
-  position: relative;
-}
-
-.older-post-grid-wrapper .article-data-container{
-  position: static;
-  background-color: transparent;
-}
-
-.older-post-grid-wrapper .article-title{
-  margin-bottom: var(--margin-bottom-sm);
-}
-
-.see-more-container{
-   margin-top: var(--margin-top-md);
-}
-
-.see-more-btn{
-  text-transform: uppercase;
-}
-
-.see-more-btn i{
-  transition: transform .25s;
-}
-.see-more-btn:hover i{
-  transform: translateX(.5rem);
-}
-/* popular tags*/
-.popular-tags-container{
-  gap: 2rem;
-}
-
-
-.popular-tags-container .article{
-  min-height: var(--item-min-height-sm);
-  overflow: hidden;
-}
-.tag-name{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform:  translate(-50%, -50%);
-  background-color: var(--transparent-dark-color);
-  padding: 1rem 2rem;
-  z-index: 10;
-}
-.popular-tags-container .article:hover .tag-name{
-  color: var(--light-color);
-}
-
-.popular-tags-container .article:hover .article-image{
-  transform: scale(1.05);
-}
 
 /* newsletter */
 .newsletter{
@@ -960,10 +891,7 @@ form button{
   height: var(--item-min-height-sm);
 }
 
-
-
 }
-
 
 @media screen and (min-width: 412px){
   .input-group, .input-group textarea {
@@ -1011,11 +939,7 @@ form button{
   height: var(--item-min-height-sm);
 }
 
-
-
-
 }
-
 
 @media screen and (min-width: 810px){
   .input-group, .input-group textarea {
