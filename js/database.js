@@ -236,7 +236,7 @@ function addData() {
     if (index < showItemCount) {
       dataStr += `<figure>
 <h3>${element.title}</h3>
-<img src="${element.imgUrl}"  alt="food" display: grid; height="210" width="300"   transform: scale(1.05);  />
+<img src="${element.imgUrl}"  alt="food" display: grid; height="210" width="300" border-radius: 2rem;  transform: scale(1.05);  />
 </figure>
 <p>${element.desc_first}
 <a style="display:block;padding:3px 5px 1px 10px; margin-top: 3rem; margin-bottom: 5rem; cursor: pointer; background: #a52a2a;width:80px;color:#ffffff;" href="./post_specific.html?id=${element.id}">Read </a>
