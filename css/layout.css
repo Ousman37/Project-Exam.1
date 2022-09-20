@@ -618,19 +618,24 @@ gap: 2rem;
 }
 
 .blog-hero{
-  min-width: 114rem;
-  height: 40rem;
-  background: rgb(172,38,105);
-  background: linear-gradient(104deg, rgba(172,38,105,1) 6%, rgba(152,13,118,1) 78%);
+  min-width: 100rem;
+  height: 80vh;
+  background: url(../images/10kitchen-5.jpg)
+no-repeat center center / cover;
+ 
+ 
   margin: 5rem auto;
 }
 
 .blog-post-title{
-  font-size: 3rem;
-  font-weight: 600;
+  text-shadow: rgba(0, 0, 0 , .8);
+  font-size: 9rem;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  color: var(--light-color);
+  letter-spacing: 2px;
+  color: var(--light-color-alt);
+  margin-top: 6rem;
+  margin-left: rem;
 }
 
 .profile-content{
@@ -822,7 +827,7 @@ gap: 2rem;
   gap: 2rem;
   margin: 0 auto;
   border-radius: 1.5rem;
-  margin-top: -15rem;
+  margin-top: -12rem;
 }
 
 .quote{
