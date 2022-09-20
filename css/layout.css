@@ -73,7 +73,6 @@ html {
 }
 
 
-
 body {
 font-family: var(--secondary-font-family);
 font-size: var(--font-size-sm);
@@ -110,8 +109,9 @@ button{
   border: none;
   background-color: transparent;
   outline: none;
- 
 }
+
+
 i{
   font-size: var(--font-size-md);
  
@@ -486,8 +486,9 @@ gap: 2rem;
     transition: all .5s ease;
     display: block;
     background:rgba(128, 128, 128, 0.474);
-    height:130vh;
+    height:150vh;
     width:100%;
+    
     display:flex;
     justify-content:center;
     align-items:center;

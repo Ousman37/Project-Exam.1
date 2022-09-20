@@ -281,8 +281,9 @@ if (id) {
   dataStr += `
            <div>
                 <figure>
-               <h1 style="text-align:center;text-transform:uppercase;box-shadow: 0 4px 3px -2px gray;margin-top: 80px;">${postDataArray[0].title}</h1>
-               <a onclick="modelImgClick()"> <img src="${currentPost.imgUrl}" height="400px" width="360px"  alt="food" class="" /></a>
+               <h1 style="text-align:center;text-transform:uppercase;box-shadow: 0 4px 3px -2px
+                gray;margin-top: 80px;">${currentPost.title}</h1>
+               <a onclick="modelImgClick()"> <img src="${currentPost.imgUrl}" alt="food" class="specific_image" /></a>
                </figure>
                <p>${currentPost.desc_first}
                 <blockquote class="quote">
@@ -292,10 +293,11 @@ if (id) {
             </p>
 
        <div id="didi_modal_image_id" class="didi_modal_image"> 
-       <div style="width:760px;">
-      <button style="font-size:28px;padding:5px;background:tomato;color:#ffffff; display: flex; margin-left: 76rem;    transform:translateY(50px)" onclick="modalClose()">X</button>
+       <div style="width:66vw;max-width:540px;max-height:540px">
+      <button style="font-size:28px;padding:5px;background:tomato;color:#ffffff; float:right;
+          transform:translateY(50px)" onclick="modalClose()">X</button>
       </div>
-       <img src="${currentPost.imgUrl}" height="700px" width="760px" />
+       <img src="${currentPost.imgUrl}" class="specific_image_modal"/>
       </div>
       </div>`;
 
