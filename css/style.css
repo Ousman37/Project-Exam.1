@@ -888,7 +888,7 @@ form button{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-left: -1rem;
+   
 }
 
 }
