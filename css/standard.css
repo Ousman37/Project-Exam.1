@@ -283,21 +283,22 @@ display: block;
 .form-input,
 .form-btn{
  display: inline-block;
- border: 1.2px solid var(--primary-background-color);
+ border: 1.2px solid var(--secondary-background-color);
  padding: 1.2rem;
 }
 
 .form-input{
  border-right: none;
  width: 29%;
- background-color: var(--secondary-background-color);
+ background-color: var(--primary-background-color);
 }
 
 .form-btn{
  margin-left: -.5rem;
  border-left: none;
- background-color: #363636;
+ background-color: var(--secondary-background-color);
  width: 8rem;
+ color: var(--light-color);
 }
 
 .form-note{
@@ -713,6 +714,13 @@ color: var(--light-color-alt);
  .headline span{
   font-size: var(--font-size-sm);
  }
+ .title {
+ font-size: var(--font-size-sm);
+ margin-right: 3rem;
+}
+.form-input {
+ width: 55%;
+}
  
 }
 
@@ -788,20 +796,27 @@ color: var(--light-color-alt);
  .headline span{
   font-size: var(--font-size-sm);
  }
+ .title {
+  font-size: var(--font-size-sm);
+  margin-right: 3rem;
+}
+.form-input {
+  width: 55%;
+}
  
 }
 
 
 @media screen and (min-width: 414px){
-     .travel-box{
-      margin: 20px 10px;
-      width: 100%;
-     }
-     .travel{
-      padding: 20px;
-     }
-     .section-header-offset {
-    margin-top: 6.4rem;
+  .travel-box{
+   margin: 20px 10px;
+   width: 100%;
+  }
+  .travel{
+   padding: 20px;
+  }
+  .section-header-offset {
+ margin-top: 6.4rem;
 }
 .travel-container {
     margin: 20px -35px;
@@ -819,15 +834,15 @@ color: var(--light-color-alt);
 }
 
 @media screen and (min-width: 540px){
-     .travel-box{
-      margin: 20px 10px;
-      width: 100%;
-     }
-     .travel{
-      padding: 20px;
-     }
-     .section-header-offset {
-    margin-top: 6.4rem;
+   .travel-box{
+    margin: 20px 10px;
+    width: 100%;
+   }
+   .travel{
+    padding: 20px;
+   }
+   .section-header-offset {
+  margin-top: 6.4rem;
 }
 .travel-container {
     margin: 20px -35px;
@@ -845,15 +860,15 @@ color: var(--light-color-alt);
 }
 
 @media screen and (min-width: 550px){
-     .travel-box{
-      margin: 20px 10px;
-      width: 100%;
-     }
-     .travel{
-      padding: 20px;
-     }
-     .section-header-offset {
-    margin-top: 6.4rem;
+   .travel-box{
+    margin: 20px 10px;
+    width: 100%;
+   }
+   .travel{
+    padding: 20px;
+   }
+   .section-header-offset {
+  margin-top: 6.4rem;
 }
 .travel-container {
     margin: 20px -35px;
@@ -875,22 +890,14 @@ color: var(--light-color-alt);
 
 
 @media screen and (min-width: 768px){
-  .featured-content{
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 5rem repeat(4, ifr);
-  }
-  .headline-banner{
-    grid-column:  1/-1;
-    font-size: var(--font-size-sm);
-  }
-       .travel-box{
-      margin: 20px 10px;
-      width: 100%;
-     }
-     .travel{
-      padding: 20px;
-     }
-     .section-header-offset {
+  .travel-box{
+    margin: 20px 10px;
+    width: 100%;
+   }
+   .travel{
+    padding: 20px;
+   }
+   .section-header-offset {
     margin-top: 6.4rem;
 }
 .travel-container {
@@ -907,6 +914,7 @@ color: var(--light-color-alt);
   object-fit: cover;
 }
 }
+
 
 
 @media screen and (min-width: 1024px){
@@ -1000,9 +1008,6 @@ color: var(--light-color-alt);
 }
  
 }
-
-
-
 @media screen and (min-width: 810px) {
 
   .company-data{
@@ -1033,9 +1038,13 @@ color: var(--light-color-alt);
   margin-left: 2rem;
   object-fit: cover;
 }
- 
+ .form-input {
+  width: 36%;
+}
  
 }
+
+
 
 
 
