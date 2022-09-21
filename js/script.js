@@ -29,7 +29,7 @@ function validateForm3(event) {
     lastNameError.style.display = "block";
   }
 
-  if (checkLength(subject.value, 5) === true) {
+  if (checkLength(subject.value, 0) === true) {
     subjectError.style.display = "none";
   } else {
     subjectError.style.display = "block";
