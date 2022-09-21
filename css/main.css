@@ -240,7 +240,7 @@ body.light-theme{
 }
 
 .light-theme .sun-icon{
- display: block;
+ display: none;
 }
 
 .light-theme .moon-icon{
@@ -436,6 +436,9 @@ gap: 2rem;
  transition: background-color .5s;
 }
 
+
+/* The user don´t like the hover the  effect on the background take this to your report  */
+
 /*
 .article:hover .article-data-container{
   background-color: var(--hover-dark-color);
@@ -452,6 +455,7 @@ gap: 2rem;
 .article:hover .article-title{
   color: var(--hover-light-color);
 }*/
+
 .article-data{
   display: flex;
   align-items: center;
@@ -464,23 +468,21 @@ gap: 2rem;
 .article-data-spacer{
   width: .5rem;
   height: .5rem;
-  /*background-color: var(--light-color-alt);*/
   transform: rotate(45deg);
 }
 
-.title {
-  color: var(--light-color);
-}
+
+
 
 .article-title{
-  text-shadow: 2px 2px 100px;
-  color: #fff;
-  font-size: var(--font-size-md);
+  text-shadow: 2px 2px 200px;
+  color: var(--light-color);
+  font-size: var(--font-size-sm);
 }
 
 .article-title h3{
   color: var(--light-color);
-  font-size: var(--font-size-md);
+  font-size: 3.5rem;
 }
 
 
@@ -789,18 +791,12 @@ background-color: var(--light-color);
 
 /* Media queries*/
 @media screen and (min-width: 375px){
-  .article-title{
-  text-shadow: 2px 2px 100px;
-  color: var(--light-color);
-  font-size: var(--font-size-sm);
+
+
+
+
+
 }
-
-}
-
-
-
-
-
 
 
 @media screen and (min-width: 700px) {
