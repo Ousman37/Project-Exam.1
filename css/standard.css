@@ -428,13 +428,14 @@ gap: 2rem;
   right: 1rem;
   padding: 1rem;
   font-size: 1rem;
-  background-color: var(--primary-background-color);
+  background-color: var(--secondary-background-color);
   color: var(--light-color);
   text-transform: uppercase;
   z-index: 10;
 }
 
 .article-data-container{
+ 
  position: absolute;
  bottom: 0;
  left: 65rem;
@@ -477,7 +478,7 @@ gap: 2rem;
 
 
 .article-description{
-color: var(--light-color-alt);
+color: #f7f7f7;
 }
 
 .title {
