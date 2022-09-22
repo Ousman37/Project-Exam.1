@@ -356,9 +356,12 @@ gap: 2rem;
   display: flex;
   align-items: center;
   gap: 2rem;
-  font-size: var(--font-size-xsm);
+  font-size: var(--font-size-md);
   
 }
+
+
+
 
 .headline{
   color: var(--light-color);
