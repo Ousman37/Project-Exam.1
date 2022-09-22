@@ -437,7 +437,7 @@ gap: 2rem;
 .article-data-container{
  position: absolute;
  bottom: 0;
- left: 98rem;
+ left: 65rem;
  padding: 2rem 1.5rem;
  background-color: var(--transparent-dark-color);
  z-index: 10;
