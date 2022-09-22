@@ -439,6 +439,14 @@ gap: 2rem;
  transition: background-color .5s;
 }
 
+#filter {
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 12px;
+}
+
+
+
 
 /* The user don´t like the hover the  effect on the background take this to your report  */
 

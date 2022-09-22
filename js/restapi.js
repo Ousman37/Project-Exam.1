@@ -2,7 +2,7 @@ $(document).ready(function () {
   //alert("alert");
   $.ajax({
     method: "GET",
-    url: `https://flowerpowersupply.com/wp-json/wp/v2/posts`,
+    url: `https://flowerpowersupply.com/wp-json/wp/v2/posts?per_page=12&page=1&sticky=true`,
     success: function (data) {
       console.log(data);
       data.forEach((post) => {
