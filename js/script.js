@@ -17,19 +17,19 @@ function validateForm3(event) {
 
   //console.log("hello");
 
-  if (checkLength(firstName.value, 0) === true) {
+  if (checkLength(firstName.value, 5) === true) {
     firstNameError.style.display = "none";
   } else {
     firstNameError.style.display = "block";
   }
 
-  if (checkLength(lastName.value, 3) === true) {
+  if (checkLength(lastName.value, 4) === true) {
     lastNameError.style.display = "none";
   } else {
     lastNameError.style.display = "block";
   }
 
-  if (checkLength(subject.value, 0) === true) {
+  if (checkLength(subject.value, 15) === true) {
     subjectError.style.display = "none";
   } else {
     subjectError.style.display = "block";
@@ -41,7 +41,7 @@ function validateForm3(event) {
     emailError.style.display = "block"; //subjectError
   }
 
-  if (checkLength(message.value, 0) === true) {
+  if (checkLength(message.value, 25) === true) {
     messageError.style.display = "none";
   } else {
     messageError.style.display = "block";
