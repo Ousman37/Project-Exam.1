@@ -817,7 +817,7 @@ background-color: var(--light-color);
 }
 .headline-description,
 .fancy-border span {
-  font-size: 1rem;
+  font-size: var(--font-size-md);
 }
 .article-category {
     font-size: 1rem;
