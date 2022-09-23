@@ -216,15 +216,19 @@ body.light-theme{
 }
 
 .cta{
-   background-color: #EBEBEB;
-   color: #383838;
-  line-height: 4px;
-  border-radius: 1rem;
-  padding: 10px 10px;
-  border: 1px solid var(--accent-color);
-  cursor: pointer;
-  margin-bottom: 4rem;
-  margin-top: 2rem;
+align-items: center;
+min-width: 150px;
+max-width: 250px;
+display: block;
+margin: 1em;
+padding: 1em 2em;
+border: 1px solid var(--accent-color);
+color: var(--light-color-alt);
+position: relative;
+z-index: 1;
+ appearance: none;
+background-color: transparent;
+
 }
 
 
@@ -433,7 +437,7 @@ gap: 2rem;
  bottom: 0;
  left: 0;
  padding: 2rem 1.5rem;
- /*background-color: var(--transparent-dark-color);*/
+ background-color: var(--transparent-dark-color);
  z-index: 10;
  width: 100%;
  transition: background-color .5s;
@@ -450,22 +454,20 @@ gap: 2rem;
 
 /* The user don´t like the hover the  effect on the background take this to your report  */
 
-/*
+
 .article:hover .article-data-container{
   background-color: var(--hover-dark-color);
- 
   color: var(--hover-light-color);
 }
 
 .article:hover .article-data-spacer{
-
   background-color: var(--hover-light-color);
   
 }
 
 .article:hover .article-title{
   color: var(--hover-light-color);
-}*/
+}
 
 .article-data{
   display: flex;
@@ -474,6 +476,15 @@ gap: 2rem;
   color: var(--light-color);
   font-size: var(--font-size-xsm);
   margin-bottom: 1rem;
+}
+
+.article-data span{
+  
+  
+  
+  color: var(--light-color);
+  
+  
 }
 
 .article-data-spacer{
