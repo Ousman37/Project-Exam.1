@@ -974,8 +974,8 @@ background-color: var(--light-color);
     grid-template-columns: 1fr 40rem;
   }
   .trending-post-image-box{
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 13rem;
   }
   .popular-tags-container{
     grid-template-columns: repeat(3, 1fr);
