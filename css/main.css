@@ -223,16 +223,22 @@ display: block;
 margin: 1em;
 padding: 1em 2em;
 border: 1px solid var(--accent-color);
-color: var(--light-color-alt);
+color: var(--light-color);
 position: relative;
 z-index: 1;
  appearance: none;
 background-color: transparent;
+cursor: pointer;
 
 }
 
+.cta:hover{
+  background-color: var(--accent-color);
+  transition: all .5s ease;
+  color: #fff;
+}
 
-.cta:hover,
+
 .list-link:hover,
 .btn:hover,
 .btn:hover span{
@@ -476,12 +482,10 @@ gap: 2rem;
   color: var(--light-color);
   font-size: var(--font-size-xsm);
   margin-bottom: 1rem;
+  
 }
 
 .article-data span{
-  
-  
-  
   color: var(--light-color);
   
   
@@ -503,6 +507,7 @@ gap: 2rem;
 }
 
 .article-title h3{
+ 
   color: var(--light-color);
   font-size: 3.5rem;
 }
@@ -550,10 +555,12 @@ gap: 2rem;
   
 }
 .trending-post-data .article-title{
+  
   font-size: var(--font-size-sm);
 }
 
 .trending-post-box:hover.article-title{
+  background: var(--light-color-alt);
   color: var(--light-color-alt);
 }
 

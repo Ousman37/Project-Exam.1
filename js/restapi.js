@@ -19,7 +19,7 @@ $(document).ready(function () {
     <div class="article-data">
       <span>${post.date}</span>
       <span class="article-data-spacer"></span>
-      <span>10 mis red</span>
+      <span>10 min read</span>
     </div>
     <h3 class="title article-title">${post.title.rendered}
     </h3>
