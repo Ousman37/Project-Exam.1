@@ -4,10 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
 
 
-
-
 /* Custom properties */
-
 
 :root {
   --light-pink-clr: #f4e9e7;
@@ -15,6 +12,7 @@
   --light-dark-clr: #ffffff;
   --light-dark-clr: #655f5f;
   --dark-clr: #6a666a;
+  
   --accent-color: #933353;
   --green-clr: #2e8b57;
 
@@ -177,7 +175,7 @@ body.light-theme{
 }
 .logo-footer span,
 .logo span{
-  color: var(--dark-clr);
+  color: var(--light-color);
 }
 
 
@@ -242,7 +240,7 @@ cursor: pointer;
 .list-link:hover,
 .btn:hover,
 .btn:hover span{
- color: var(--hover-light-color);
+ color: var(--accent-color);
 }
 
  .moon-icon{
@@ -443,7 +441,7 @@ gap: 2rem;
  bottom: 0;
  left: 0;
  padding: 2rem 1.5rem;
- background-color: var(--transparent-dark-color);
+ /*background-color: var(--transparent-dark-color);*/
  z-index: 10;
  width: 100%;
  transition: background-color .5s;
@@ -459,7 +457,6 @@ gap: 2rem;
 
 
 /* The user don´t like the hover the  effect on the background take this to your report  */
-
 
 .article:hover .article-data-container{
   background-color: var(--hover-dark-color);
@@ -502,13 +499,12 @@ gap: 2rem;
 
 .article-title{
   text-shadow: 2px 2px 200px;
-  color: var(--light-color);
+  color: var(--light-color-alt);
   font-size: var(--font-size-sm);
 }
 
 .article-title h3{
- 
-  color: var(--light-color);
+  color: var(--light-color-alt);
   font-size: 3.5rem;
 }
 
@@ -678,8 +674,7 @@ background-color: var(--light-color);
 }
 
 .newsletter-title{
-  color: var(--light-color-alt);
-  /*color: #454545;*/
+  color: var(--light-color);
   font-size: var(--font-size-lg);
 }
 

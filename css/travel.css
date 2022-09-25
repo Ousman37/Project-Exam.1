@@ -10,7 +10,8 @@
   --light-dark-clr: #ffffff;
   --light-dark-clr: #655f5f;
   --dark-clr: #6a666a;
-  --accent-color: #db7093;
+   --accent-color: #933353;
+ /* --accent-color: #db7093;*/
   --green-clr: #2e8b57;
   --light-color-alt: #FFFFFF;
   --light-color: #fff;
@@ -168,7 +169,7 @@ body.light-theme{
 }
 
 .logo span{
- color: var(--dark-clr);
+ color: var(--light-color);
 }
 
 .menu{
@@ -524,8 +525,8 @@ height: 60vh;
 }
 
 .travel-text span {
-  color: var(--red-clr);
-  font-size: 0.9rem;
+  color: var(--light-color);
+  font-size: var(--font-size-sm);
 }
 
 .travel-text .travel-description{
@@ -651,7 +652,7 @@ color: #fff;
 }
 
 .newsletter-title{
-  color: #fff;
+  color: var(--light-color);
   font-size: var(--font-size-lg);
 }
 
