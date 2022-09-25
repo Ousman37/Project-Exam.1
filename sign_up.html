@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Healthy, easy and modern  recipes from our food10 kitchen. Easy  recipes, inspiring food photography, travel tips and cookbooks."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food10Kitchen | Home</title>
+
+    <!-- Swiper.js  styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- font REMIX  ICONS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--link stylesheet -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/sign.css" />
+
+    <!-- Hotjar Tracking Code for https://silver-choux-d1f3d2.netlify.app/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3152273, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="navbar container">
+        <a href="/index.html">
+          <h1 class="logo">
+            <i class="fa-solid fa-kitchen-set"></i>Food <span>10</span>kitchen
+          </h1></a
+        >
+
+        <div class="menu" id="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="./index.html" class="list-link current">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="./about.html" class="list-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="./post.html" class="list-link">Posts</a>
+            </li>
+            <li class="list-item">
+              <a href="./travel.html" class="list-link current">Travel</a>
+            </li>
+
+            <li class="list-item">
+              <a href="./contact.html" class="list-link">Contact us</a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign in </a>
+            </li>
+            <li class="list-item screen-lg-hidden">
+              <a href="#" class="list-link">Sign up</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list list-right">
+          <button
+            class="btn light-theme place-items-center"
+            id="theme-toggle-btn"
+          >
+            <i class="ri-sun-line sun-icon"></i>
+            <i class="ri-moon-line moon-icon"></i>
+          </button>
+
+          <button type="button" class="btn place-items-center" id="search-icon">
+            <i class="ri-search-line"></i>
+          </button>
+
+          <button
+            class="btn place-items-center screen-lg-hidden menu-toggle-icon"
+            id="menu-toggle-icon"
+          >
+            <i class="ri-menu-2-line open-menu-icon"></i>
+            <i class="ri-close-fill close-menu-icon"></i>
+          </button>
+
+          <a href="#" class="list-link screen-sm-hidden">Sign In</a>
+          <a
+            href="#"
+            class="list-link screen-sm-hidden btn sign-up-btn fancy-border"
+          >
+            <span>Sign up</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="what are you looking for?"
+          />
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Or press ESC to close</span>
+      </div>
+
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section-header-offset">
+      <div class="featured-articles-container container d-grid">
+        <div class="featured-content d-grid">
+          <div class="headline-banner">
+            <h2 class="headline fancy-border">
+              <span class="place-items-center">Breaking news</span>
+            </h2>
+            <span class="headline-description"
+              >Food10Kitchen announces a new easy healthy recipes...</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-row" id="container-column">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Create Account</h1>
+          <div class="social-container">
+            <a href="#" class="social"
+              ><i class="ri-facebook-circle-line"></i
+            ></a>
+            <a href="#" class="social"><i class="ri-google-line"></i></a>
+            <a href="#" class="social"><i class="ri-linkedin-line"></i></a>
+          </div>
+          <span>or use your email for registration</span>
+
+          <input type="name" aria-labelledby="name" placeholder="Name" />
+          <input type="email" aria-labelledby="email" placeholder="Email" />
+          <input
+            type="password"
+            aria-labelledby="password"
+            placeholder="Password"
+          />
+
+          <button class="host-btm">Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1>Sign in</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your account</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a class="forget" href="#">Forgot your password?</a>
+          <button class="host-btm">Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p class="card-description">
+              To keep connected with us please login with your personal info
+            </p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+      <div class="container">
+        <h3 class="title section-title" data-name="Newsletter">Newsletter</h3>
+        <div class="form-container-inner">
+          <h4 class="title newsletter-title">
+            Get delicious new recipes daily
+          </h4>
+          <p class="newsletter-description">
+            Stay up to date with our latest, recipes, videos and other news by
+            joining our newsletter. We respect your privacy and we won't spam
+            you.
+          </p>
+
+          <form action="" class="form">
+            <input
+              type="text"
+              aria-labelledby="text"
+              class="form-input"
+              placeholder="Enter your email address"
+            />
+            <button class="btn form-btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <footer class="footer section">
+      <div class="footer-container container d-grid">
+        <div class="company-data">
+          <a href="/index.html">
+            <h5 class="logo-footer">
+              <i class="fa-solid fa-kitchen-set"></i>Food<span>10</span>kitchen
+            </h5></a
+          >
+          <p class="company-description">
+            Welcome to our Food10Kitchen. Here we cook and eat healthy and
+            simple all kind of food vegetarian food with natural ingredients,
+            whole grains, good fats, fruit and vegetables.
+          </p>
+          <ul class="list social-media">
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-youtube-line"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-mail-send-line"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-twitter-line"></i>
+              </a>
+              <a href="#" class="list-link">
+                <i class="ri-pinterest-line"></i>
+              </a>
+            </li>
+          </ul>
+          <span class="copyright-notice"
+            >&copy: 2022 Food10Kitchen. All rights reserved. Design by Ethmane
+            Didi.</span
+          >
+        </div>
+        <div>
+          <h6 class="title footer-title">Cooking With Vegetables</h6>
+          <ul class="list footer-list">
+            <li class="list-item">
+              <a href="#" class="list-link">Avocado</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Beets</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Brussels Sprouts</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Broccoli</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Butternut Squash</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Cauliflower</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Spaghetti Squash</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h6 class="title footer-title">Categories</h6>
+          <ul class="list footer-list">
+            <li class="list-item">
+              <a href="#" class="list-link">Food</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Travel</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Health</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Nature</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Fitness</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Mindfulness</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h6 class="title footer-title">Top Recipes</h6>
+          <ul class="list footer-list">
+            <li class="list-item">
+              <a href="#" class="list-link">Healthy Breakfast Ideas</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Easy Dinner Ideas</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Healthy Lunch Ideas</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Best Brunch Recipes</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Best Salad Recipes</a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">Best Soup Recipes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper.js -->
+
+    <!-- Custom script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/app.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/restapi.js" defer></script>
+  </body>
+</html>

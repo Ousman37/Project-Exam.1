@@ -734,7 +734,8 @@ background-color: var(--light-color);
   background-color: #2e303b;
 }
 
-/* Blog post*/
+
+/*
 .blog-post{
   padding-bottom: 5rem;
 }
@@ -767,8 +768,9 @@ background-color: var(--light-color);
   display: flex;
   flex-direction: column;
   gap: 2rem;
-}
+}*/
 
+/*
 .quote{
   background-color: var(--secondary-background-color);
   padding: 2.5rem;
@@ -810,7 +812,18 @@ background-color: var(--light-color);
 .author-about .social-media{
   margin-top: auto;
   margin-bottom: 0;
-}
+}*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media queries*/
