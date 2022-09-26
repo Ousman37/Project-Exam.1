@@ -464,6 +464,8 @@ gap: 2rem;
 
 
 .article-description{
+  
+  
 color: #f7f7f7;
 }
 
@@ -531,6 +533,8 @@ color: #f7f7f7;
 }
 
 .card-description {
+  max-width: 600px;
+margin-left: 25rem;
   font-size: var(--font-size-sm);
   color: var(--light-color);
   line-height: 2.8rem;
