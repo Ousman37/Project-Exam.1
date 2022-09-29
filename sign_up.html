@@ -22,7 +22,7 @@
     />
 
     <!--link stylesheet -->
-    <link rel="stylesheet" href="./css/main.css" />
+
     <link rel="stylesheet" href="./css/sign.css" />
 
     <!-- Hotjar Tracking Code for https://silver-choux-d1f3d2.netlify.app/ -->
@@ -114,7 +114,7 @@
     </header>
 
     <!-- Search -->
-    <div class="search-form-container container" id="search-form-container">
+    <!--<div class="search-form-container container" id="search-form-container">
       <div class="form-container-inner">
         <form action="" class="form">
           <input
@@ -132,10 +132,10 @@
       <button class="btn form-close-btn place-items-center" id="form-close-btn">
         <i class="ri-close-line"></i>
       </button>
-    </div>
+    </div>-->
 
     <!-- Featured articles -->
-    <section class="featured-articles section-header-offset">
+    <main class="featured-articles section-header-offset">
       <div class="featured-articles-container container d-grid">
         <div class="featured-content d-grid">
           <div class="headline-banner">
@@ -148,65 +148,45 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="container-row" id="container-column">
-      <div class="form-container sign-up-container">
-        <form action="#">
-          <h1>Create Account</h1>
-          <div class="social-container">
-            <a href="#" class="social"
-              ><i class="ri-facebook-circle-line"></i
-            ></a>
-            <a href="#" class="social"><i class="ri-google-line"></i></a>
-            <a href="#" class="social"><i class="ri-linkedin-line"></i></a>
+    </main>
+    <section class="andre_container">
+      <div class="didi_container" id="container_main">
+        <form class="my_form" id="login">
+          <h1 class="form_title">Login</h1>
+          <div class="form_message form_massage-error">
+            <!--Incorrect username/password combination.-->
           </div>
-          <span>or use your email for registration</span>
 
-          <input type="name" aria-labelledby="name" placeholder="Name" />
-          <input type="email" aria-labelledby="email" placeholder="Email" />
-          <input
-            type="password"
-            aria-labelledby="password"
-            placeholder="Password"
-          />
-
-          <button class="host-btm">Sign Up</button>
+          <div class="form_input-group">
+            <input
+              type="text"
+              class="form-input"
+              autofocus
+              placeholder="Username or email"
+            />
+            <div class="form_input-error_message"></div>
+          </div>
+          <div class="form_input-group">
+            <input
+              type="password"
+              class="form-input"
+              autofocus
+              placeholder="Password"
+            />
+            <div class="form_input-error_message"></div>
+          </div>
+          <button class="form__button" type="submit">Continue</button>
+          <p class="form_text">
+            <a href="#" class="form_link">Forgot your password?</a>
+          </p>
+          <p class="form_text">
+            <a class="form_link" href="#" id="linkCreateAccount">
+              Don´t have an account? Create account</a
+            >
+          </p>
         </form>
       </div>
-      <div class="form-container sign-in-container">
-        <form action="#">
-          <h1>Sign in</h1>
-          <div class="social-container">
-            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-          <span>or use your account</span>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <a class="forget" href="#">Forgot your password?</a>
-          <button class="host-btm">Sign In</button>
-        </form>
-      </div>
-      <div class="overlay-container">
-        <div class="overlay">
-          <div class="overlay-panel overlay-left">
-            <h1>Welcome Back!</h1>
-            <p class="card-description">
-              To keep connected with us please login with your personal info
-            </p>
-            <button class="ghost" id="signIn">Sign In</button>
-          </div>
-          <div class="overlay-panel overlay-right">
-            <h1>Hello, Friend!</h1>
-            <p>Enter your personal details and start journey with us</p>
-            <button class="ghost" id="signUp">Sign Up</button>
-          </div>
-        </div>
-      </div>
     </section>
-
     <!-- Newsletter -->
     <section class="newsletter section">
       <div class="container">
@@ -220,7 +200,6 @@
             joining our newsletter. We respect your privacy and we won't spam
             you.
           </p>
-
           <form action="" class="form">
             <input
               type="text"
@@ -233,6 +212,7 @@
         </div>
       </div>
     </section>
+
     <!-- footer -->
 
     <footer class="footer section">
