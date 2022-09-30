@@ -658,7 +658,9 @@ background-size: cover;*/
 .logo{
   font-size: var(--font-size-sm);
 }
-
+  .andre_container {
+height: 72vh;
+}
 
 }
 
@@ -695,12 +697,12 @@ background-size: cover;*/
 
 @media screen and (min-width: 390px){
     .andre_container {
-  height: 44vh;
+  height: 61vh;
 }
 .didi_container {
   width: 554px;
   max-width: 516px;
-  height: 40vh;
+  height: 53vh;
   margin: 1rem;
   padding: 5rem;
 }
@@ -719,7 +721,7 @@ background-size: cover;*/
   margin-top: 9.4rem;
 }
 .andre_container {
-  height: 43vh;
+  height: 61vh;
   
 }
 }
@@ -746,6 +748,23 @@ background-size: cover;*/
 }
 
 @media screen and (min-width: 540px){
+   .andre_container {
+ height: 72vh;
+}
+.didi_container {
+ width: 554px;
+ max-width: 516px;
+ height: 64vh;
+ margin: 1rem;
+ padding: 5rem;
+}
+.form_input-group {
+ margin-bottom: 2rem;
+}
+.didi_form_input {
+ display: block;
+ width: 58%;
+}
 }
 
 @media screen and (min-width: 550px){
@@ -756,6 +775,9 @@ background-size: cover;*/
 
 
 @media screen and (min-width: 768px){
+  .andre_container {
+    height: 54vh;
+}
 }
 
 
@@ -861,12 +883,12 @@ background-size: cover;*/
   .didi_container {
   width: 554px;
   max-width: 516px;
-  height: 53vh;
+  height: 73vh;
   margin: 1rem;
   padding: 5rem;
 }
 .andre_container {
-  height: 61vh;
+  height: 87vh;
 }
 
 }
@@ -900,12 +922,12 @@ background-size: cover;*/
 .didi_container {
   width: 554px;
   max-width: 516px;
-  height: 53vh;
+  height: 65vh;
   margin: 1rem;
   padding: 5rem;
 }
 .andre_container {
-  height: 61vh;
+  height: 78vh;
 }
 
 
