@@ -687,13 +687,17 @@ height: 72vh;
 
 @media screen and (min-width: 360px){
   .andre_container {
-  height: 71vh;
-  display: flex;
-  
+  height: 72vh;
 }
  
 }
 
+@media screen and (min-width: 384px){
+  .andre_container {
+  height: 77vh;
+  
+}
+}
 
 @media screen and (min-width: 390px){
     .andre_container {
@@ -721,7 +725,7 @@ height: 72vh;
   margin-top: 9.4rem;
 }
 .andre_container {
-  height: 61vh;
+  height: 58vh;
   
 }
 }
@@ -767,16 +771,12 @@ height: 72vh;
 }
 }
 
-@media screen and (min-width: 550px){
-}
-
-
 
 
 
 @media screen and (min-width: 768px){
   .andre_container {
-    height: 54vh;
+    height: 78vh;
 }
 }
 
@@ -801,6 +801,9 @@ height: 72vh;
 }
 .form_input-group {
   margin-bottom: 2rem;
+}
+.andre_container {
+  height: 56vh;
 }
 
 }
