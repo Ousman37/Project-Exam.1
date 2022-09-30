@@ -729,12 +729,12 @@ height: 72vh;
 
 @media screen and (min-width: 414px){
   .andre_container {
-  height: 44vh;
+  height: 56vh;
 }
 .didi_container {
   width: 554px;
   max-width: 516px;
-  height: 40vh;
+  height: 50vh;
   margin: 1rem;
   padding: 5rem;
 }
