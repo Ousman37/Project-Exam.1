@@ -211,7 +211,7 @@ body.light-theme{
 .list-link:hover,
 .btn:hover,
 .btn:hover span{
- color: var(--accent-color);
+ color: var(--light-color);
 }
 
  .moon-icon{
@@ -246,6 +246,77 @@ display: none;
 display: block;
 }
 
+/* Search */
+.search-form-container{
+ width: 100%;
+ max-width: 100%;
+ height: 100vh;
+ background-color: var(--primary-background-color);
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 9999;
+ display: flex;
+ opacity: 0;
+ transform: scale(0);
+ transform: opacity .5s;
+}
+
+.form-container-inner{
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+ text-align: center;
+}
+
+.featured-content,
+.contact-info-container{
+  gap: 2rem;
+}
+
+
+
+
+.form{
+ display: flex;
+ justify-content: center;
+}
+
+
+
+.form-input,
+.form-btn{
+ display: inline-block;
+ border: 1.2px solid var(--secondary-background-color);
+ padding: 1.2rem;
+}
+
+.form-input{
+ border-right: none;
+ width: 100%;
+}
+
+.form-btn{
+ margin-left: -.5rem;
+ border-left: none;
+ background-color: var(--secondary-background-color);
+ width: 8rem;
+}
+
+.form-note{
+ font-size: var(--font-size-xsm);
+ align-self: flex-end;
+}
+
+.form-close-btn{
+ position: absolute;
+ top: 1.5rem;
+ right: 1.5rem;
+ border: 2px solid var(--secondary-background-color);
+ width: 3rem;
+ height: 3rem;
+}
 
 /* form javaScript styles "something is not working with the form  come back work on to save time"!! */
 .search-form-container.activated{
@@ -973,14 +1044,14 @@ form button{
 
   .container form {
   width: 100%;
-  left: 2rem;
+  left: 10rem;
 }
 .contact-info-container .container {
   width: 41rem;
 }
 .author {
   width: 27%;
-  margin-top: 5rem;
+  margin-left: 25rem;
   
 }
 .contact-info-container .container {
