@@ -1,3 +1,5 @@
+# Food 10kitchen blog-site
+
 
 # Project-Exam.1 - Noroff
 
@@ -29,13 +31,12 @@ This project was the first year of the Noroff Front-End development  The goal pr
 
 ## WordPress installation
 
-
-
-## Getting Started
-
 - Headless CMS
 - Provide an API and add content for the blog
 - Making a call to the WordPress REST API to fetch the data.
+
+## Getting Started
+
 
 1. Clone the repo:
 
