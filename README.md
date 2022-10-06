@@ -23,7 +23,7 @@ This project was my  first year Semester Project  of the Noroff Front-End develo
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Ousman37/Cross-course_project_Redesign.git
+git clone https://github.com/Ousman37/-Trails-Hikes-website.git
 ```
 
 2. Install the dependencies:
