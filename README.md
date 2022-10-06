@@ -18,8 +18,24 @@ This project was the first year of the Noroff Front-End development  The goal pr
 - JavaScript
 
 
+## Pages
+
+-  Home page
+-  About page
+-  List of blog posts
+-  Blog post specific pages
+-  Contact page.
+
+
+## WordPress installation
+
+
 
 ## Getting Started
+
+- Headless CMS
+- Provide an API and add content for the blog
+- Making a call to the WordPress REST API to fetch the data.
 
 1. Clone the repo:
 
