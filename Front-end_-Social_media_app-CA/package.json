@@ -1,0 +1,22 @@
+{
+  "name": "front-end_-social_media_app-ca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ousman37/Front-end_-Social_media_app-CA.git"
+  },
+  "author": "Ethmane Didi <ousman.didibela@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ousman37/Front-end_-Social_media_app-CA/issues"
+  },
+  "homepage": "https://github.com/Ousman37/Front-end_-Social_media_app-CA#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
